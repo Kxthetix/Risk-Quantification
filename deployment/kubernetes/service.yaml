@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cyber-risk-service
+  namespace: cyber-risk-platform
+  labels:
+    app.kubernetes.io/name: cyber-risk-api
+spec:
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: 8000
+      name: http
+      protocol: TCP
+  selector:
+    app.kubernetes.io/name: cyber-risk-api

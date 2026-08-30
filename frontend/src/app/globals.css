@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Base Neutral Palette (Light Mode - Enterprise Clean) */
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --card-border: 214 32% 91%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 210 40% 98%;
+    --primary-hover: 224 76% 48%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222 47% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 94%;
+    --accent-foreground: 222 47% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+
+    --radius: 0.5rem;
+
+    /* Sidebar Variables */
+    --sidebar-background: 222 47% 11%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-border: 217 33% 17%;
+    --sidebar-accent: 217 33% 17%;
+    --sidebar-accent-foreground: 210 40% 98%;
+
+    /* Cybersecurity Risk Tokens (Light Mode) */
+    --risk-low: 142 71% 40%;
+    --risk-low-foreground: 144 61% 20%;
+    --risk-low-bg: 142 76% 94%;
+
+    --risk-medium: 38 92% 50%;
+    --risk-medium-foreground: 38 90% 25%;
+    --risk-medium-bg: 48 96% 91%;
+
+    --risk-high: 24 95% 53%;
+    --risk-high-foreground: 20 90% 24%;
+    --risk-high-bg: 24 100% 93%;
+
+    --risk-critical: 0 84% 60%;
+    --risk-critical-foreground: 0 74% 25%;
+    --risk-critical-bg: 0 93% 94%;
+
+    /* Severity Indicators */
+    --severity-info: 199 89% 48%;
+    --severity-low: 142 71% 40%;
+    --severity-medium: 38 92% 50%;
+    --severity-high: 24 95% 53%;
+    --severity-critical: 0 84% 60%;
+
+    /* Operational Status */
+    --status-success: 142 71% 40%;
+    --status-success-bg: 142 76% 94%;
+    --status-warning: 38 92% 50%;
+    --status-warning-bg: 48 96% 91%;
+    --status-danger: 0 84% 60%;
+    --status-danger-bg: 0 93% 94%;
+    --status-info: 199 89% 48%;
+    --status-info-bg: 204 94% 94%;
+  }
+
+  .dark {
+    /* Base Neutral Palette (Dark Mode - High-End Cyber Slate) */
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --card: 224 71% 7%;
+    --card-foreground: 213 31% 91%;
+    --card-border: 223 47% 14%;
+
+    --popover: 224 71% 7%;
+    --popover-foreground: 213 31% 91%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 224 71% 4%;
+    --primary-hover: 217 91% 68%;
+
+    --secondary: 223 47% 13%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 223 47% 13%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 223 47% 16%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 223 47% 15%;
+    --input: 223 47% 15%;
+    --ring: 217 91% 60%;
+
+    /* Sidebar Variables */
+    --sidebar-background: 224 71% 5%;
+    --sidebar-foreground: 213 31% 91%;
+    --sidebar-border: 223 47% 12%;
+    --sidebar-accent: 223 47% 13%;
+    --sidebar-accent-foreground: 213 31% 98%;
+
+    /* Cybersecurity Risk Tokens (Dark Mode) */
+    --risk-low: 142 69% 58%;
+    --risk-low-foreground: 144 80% 90%;
+    --risk-low-bg: 144 61% 14%;
+
+    --risk-medium: 45 93% 58%;
+    --risk-medium-foreground: 48 96% 90%;
+    --risk-medium-bg: 38 90% 15%;
+
+    --risk-high: 25 95% 58%;
+    --risk-high-foreground: 24 100% 92%;
+    --risk-high-bg: 20 90% 16%;
+
+    --risk-critical: 0 84% 60%;
+    --risk-critical-foreground: 0 93% 94%;
+    --risk-critical-bg: 0 74% 16%;
+
+    /* Severity Indicators */
+    --severity-info: 199 89% 58%;
+    --severity-low: 142 69% 58%;
+    --severity-medium: 45 93% 58%;
+    --severity-high: 25 95% 58%;
+    --severity-critical: 0 84% 60%;
+
+    /* Operational Status */
+    --status-success: 142 69% 58%;
+    --status-success-bg: 144 61% 14%;
+    --status-warning: 45 93% 58%;
+    --status-warning-bg: 38 90% 15%;
+    --status-danger: 0 84% 60%;
+    --status-danger-bg: 0 74% 16%;
+    --status-info: 199 89% 58%;
+    --status-info-bg: 200 90% 16%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Custom Cyber Glassmorphism & Micro Utilities */
+.glass-panel {
+  background: hsl(var(--card) / 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid hsl(var(--border) / 0.6);
+}
+
+.cyber-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, hsl(var(--border) / 0.3) 1px, transparent 1px),
+    linear-gradient(to bottom, hsl(var(--border) / 0.3) 1px, transparent 1px);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.2);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.4);
+}
