@@ -1,0 +1,3613 @@
+{
+  "meta": {
+    "schema_version": 1,
+    "generated_at": "2026-09-01T17:51:59+00:00",
+    "generator": "frameworks/crosswalk.py",
+    "sources": {
+      "iso27001": "ISO/IEC 27001:2022, Annex A. Control identifiers and titles as published by ISO/IEC.",
+      "nistcsf": "NIST Cybersecurity Framework 2.0 (NIST CSWP 29, February 2024). Subcategory identifiers as published by NIST.",
+      "cis": "CIS Critical Security Controls v8.1 (Center for Internet Security). Safeguard numbering as published by CIS.",
+      "rbi": "Reserve Bank of India, 'Cyber Security Framework in Banks', circular DBS.CO/CSITE/BC.11/33.01.001/2015-16 dated 2 June 2016 (Annex 1 baseline requirements, Annex 2 C-SOC, Annex 3 CCMP). Internal RBI-A<n>-<nn> identifiers are this project's numbering; requirement substance follows the circular.",
+      "sebi": "SEBI, 'Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities', circular SEBI/HO/ITD-1/ITD_CSC_EXT/P/CIR/2024/113 dated 20 August 2024, with the June 2025 FAQ and the 28 August 2025 technical clarifications. Internal SEBI-<FN>-<nn> identifiers are this project's numbering, grouped by the CSCRF's NIST CSF 2.0 anchoring."
+    },
+    "provenance_note": "verification=verified means the identifier and title were checked against the published standard. inferred means the requirement substance is correct but the official clause numbering could not be confirmed from the primary document. assigned means this project created the identifier and records the basis for the mapping. Reports must surface this status; an inferred or assigned identifier is not a citation.",
+    "verification_counts": {
+      "iso27001": {
+        "verified": 54
+      },
+      "nistcsf": {
+        "verified": 64
+      },
+      "cis": {
+        "verified": 81
+      },
+      "rbi": {
+        "inferred": 30
+      },
+      "sebi": {
+        "assigned": 25
+      }
+    },
+    "coverage": {
+      "iso27001": {
+        "mapped": 54,
+        "total": 54,
+        "pct": 100.0
+      },
+      "nistcsf": {
+        "mapped": 64,
+        "total": 64,
+        "pct": 100.0
+      },
+      "cis": {
+        "mapped": 81,
+        "total": 81,
+        "pct": 100.0
+      },
+      "rbi": {
+        "mapped": 30,
+        "total": 30,
+        "pct": 100.0
+      },
+      "sebi": {
+        "mapped": 25,
+        "total": 25,
+        "pct": 100.0
+      }
+    }
+  },
+  "frameworks": {
+    "iso27001": {
+      "id": "iso27001",
+      "name": "ISO/IEC 27001:2022",
+      "long_name": "ISO/IEC 27001:2022 Annex A — Information security controls",
+      "authority": "International Organization for Standardization",
+      "groups": {
+        "A.5": "Organizational controls",
+        "A.6": "People controls",
+        "A.7": "Physical controls",
+        "A.8": "Technological controls"
+      },
+      "controls": {
+        "A.5.1": {
+          "title": "Policies for information security",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.2": {
+          "title": "Information security roles and responsibilities",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.4": {
+          "title": "Management responsibilities",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.7": {
+          "title": "Threat intelligence",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.9": {
+          "title": "Inventory of information and other associated assets",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.10": {
+          "title": "Acceptable use of information and other associated assets",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.12": {
+          "title": "Classification of information",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.14": {
+          "title": "Information transfer",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.15": {
+          "title": "Access control",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.16": {
+          "title": "Identity management",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.17": {
+          "title": "Authentication information",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.18": {
+          "title": "Access rights",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.19": {
+          "title": "Information security in supplier relationships",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.21": {
+          "title": "Managing information security in the ICT supply chain",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.23": {
+          "title": "Information security for use of cloud services",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.24": {
+          "title": "Information security incident management planning and preparation",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.25": {
+          "title": "Assessment and decision on information security events",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.26": {
+          "title": "Response to information security incidents",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.27": {
+          "title": "Learning from information security incidents",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.28": {
+          "title": "Collection of evidence",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.29": {
+          "title": "Information security during disruption",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.30": {
+          "title": "ICT readiness for business continuity",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.31": {
+          "title": "Legal, statutory, regulatory and contractual requirements",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.35": {
+          "title": "Independent review of information security",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.5.36": {
+          "title": "Compliance with policies, rules and standards for information security",
+          "group": "A.5",
+          "group_name": "Organizational controls",
+          "verification": "verified"
+        },
+        "A.6.3": {
+          "title": "Information security awareness, education and training",
+          "group": "A.6",
+          "group_name": "People controls",
+          "verification": "verified"
+        },
+        "A.6.8": {
+          "title": "Information security event reporting",
+          "group": "A.6",
+          "group_name": "People controls",
+          "verification": "verified"
+        },
+        "A.7.4": {
+          "title": "Physical security monitoring",
+          "group": "A.7",
+          "group_name": "Physical controls",
+          "verification": "verified"
+        },
+        "A.8.1": {
+          "title": "User endpoint devices",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.2": {
+          "title": "Privileged access rights",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.3": {
+          "title": "Information access restriction",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.5": {
+          "title": "Secure authentication",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.6": {
+          "title": "Capacity management",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.7": {
+          "title": "Protection against malware",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.8": {
+          "title": "Management of technical vulnerabilities",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.9": {
+          "title": "Configuration management",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.11": {
+          "title": "Data masking",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.12": {
+          "title": "Data leakage prevention",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.13": {
+          "title": "Information backup",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.14": {
+          "title": "Redundancy of information processing facilities",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.15": {
+          "title": "Logging",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.16": {
+          "title": "Monitoring activities",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.19": {
+          "title": "Installation of software on operational systems",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.20": {
+          "title": "Networks security",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.21": {
+          "title": "Security of network services",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.22": {
+          "title": "Segregation of networks",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.23": {
+          "title": "Web filtering",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.24": {
+          "title": "Use of cryptography",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.25": {
+          "title": "Secure development life cycle",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.26": {
+          "title": "Application security requirements",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.28": {
+          "title": "Secure coding",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.29": {
+          "title": "Security testing in development and acceptance",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.31": {
+          "title": "Separation of development, test and production environments",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        },
+        "A.8.32": {
+          "title": "Change management",
+          "group": "A.8",
+          "group_name": "Technological controls",
+          "verification": "verified"
+        }
+      }
+    },
+    "nistcsf": {
+      "id": "nistcsf",
+      "name": "NIST CSF 2.0",
+      "long_name": "NIST Cybersecurity Framework 2.0 (February 2024)",
+      "authority": "National Institute of Standards and Technology",
+      "groups": {
+        "GV": "Govern",
+        "ID": "Identify",
+        "PR": "Protect",
+        "DE": "Detect",
+        "RS": "Respond",
+        "RC": "Recover"
+      },
+      "controls": {
+        "GV.RM-01": {
+          "title": "Risk management objectives are established and agreed to by organizational stakeholders",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "verified"
+        },
+        "GV.RM-02": {
+          "title": "Risk appetite and risk tolerance statements are established, communicated and maintained",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "verified"
+        },
+        "GV.RM-03": {
+          "title": "Cybersecurity risk management activities and outcomes are included in enterprise risk management processes",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "verified"
+        },
+        "GV.RM-05": {
+          "title": "Lines of communication across the organization are established for cybersecurity risks",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "verified"
+        },
+        "GV.RM-06": {
+          "title": "A standardized method for calculating, documenting, categorizing and prioritizing cybersecurity risks is established",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "verified"
+        },
+        "GV.OV-01": {
+          "title": "Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "verified"
+        },
+        "GV.OV-03": {
+          "title": "Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "verified"
+        },
+        "GV.SC-04": {
+          "title": "Suppliers are known and prioritized by criticality",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "verified"
+        },
+        "GV.SC-07": {
+          "title": "The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to and monitored",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "verified"
+        },
+        "ID.AM-01": {
+          "title": "Inventories of hardware managed by the organization are maintained",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.AM-02": {
+          "title": "Inventories of software, services and systems managed by the organization are maintained",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.AM-05": {
+          "title": "Assets are prioritized based on classification, criticality, resources and impact on the mission",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.AM-08": {
+          "title": "Systems, hardware, software, services and data are managed throughout their life cycles",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.RA-01": {
+          "title": "Vulnerabilities in assets are identified, validated and recorded",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.RA-02": {
+          "title": "Cyber threat intelligence is received from information sharing forums and sources",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.RA-03": {
+          "title": "Internal and external threats to the organization are identified and recorded",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.RA-04": {
+          "title": "Potential impacts and likelihoods of threats exploiting vulnerabilities are identified and recorded",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.RA-05": {
+          "title": "Threats, vulnerabilities, likelihoods and impacts are used to understand inherent risk and inform risk response prioritization",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.RA-06": {
+          "title": "Risk responses are chosen, prioritized, planned, tracked and communicated",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.RA-07": {
+          "title": "Changes and exceptions are managed, assessed for risk impact, recorded and tracked",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.RA-08": {
+          "title": "Processes for receiving, analyzing and responding to vulnerability disclosures are established",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.IM-01": {
+          "title": "Improvements are identified from evaluations",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "ID.IM-02": {
+          "title": "Improvements are identified from security tests and exercises, including those done in coordination with suppliers and third parties",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "verified"
+        },
+        "PR.AA-01": {
+          "title": "Identities and credentials for authorized users, services and hardware are managed by the organization",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.AA-02": {
+          "title": "Identities are proofed and bound to credentials based on the context of interactions",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.AA-03": {
+          "title": "Users, services and hardware are authenticated",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.AA-05": {
+          "title": "Access permissions, entitlements and authorizations are defined in a policy, managed, enforced and reviewed, and incorporate the principle of least privilege",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.AA-06": {
+          "title": "Physical access to assets is managed, monitored and enforced commensurate with risk",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.AT-01": {
+          "title": "Personnel are provided with awareness and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.AT-02": {
+          "title": "Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.DS-01": {
+          "title": "The confidentiality, integrity and availability of data-at-rest are protected",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.DS-02": {
+          "title": "The confidentiality, integrity and availability of data-in-transit are protected",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.DS-10": {
+          "title": "The confidentiality, integrity and availability of data-in-use are protected",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.DS-11": {
+          "title": "Backups of data are created, protected, maintained and tested",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.PS-01": {
+          "title": "Configuration management practices are established and applied",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.PS-02": {
+          "title": "Software is maintained, replaced and removed commensurate with risk",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.PS-03": {
+          "title": "Hardware is maintained, replaced and removed commensurate with risk",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.PS-04": {
+          "title": "Log records are generated and made available for continuous monitoring",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.PS-05": {
+          "title": "Installation and execution of unauthorized software are prevented",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.PS-06": {
+          "title": "Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.IR-01": {
+          "title": "Networks and environments are protected from unauthorized logical access and usage",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.IR-02": {
+          "title": "The organization's technology assets are protected from environmental threats",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.IR-03": {
+          "title": "Mechanisms are implemented to achieve resilience requirements in normal and adverse situations",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "PR.IR-04": {
+          "title": "Adequate resource capacity to ensure availability is maintained",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "verified"
+        },
+        "DE.AE-02": {
+          "title": "Potentially adverse events are analyzed to better understand associated activities",
+          "group": "DE",
+          "group_name": "Detect",
+          "verification": "verified"
+        },
+        "DE.AE-03": {
+          "title": "Information is correlated from multiple sources",
+          "group": "DE",
+          "group_name": "Detect",
+          "verification": "verified"
+        },
+        "DE.AE-04": {
+          "title": "The estimated impact and scope of adverse events are understood",
+          "group": "DE",
+          "group_name": "Detect",
+          "verification": "verified"
+        },
+        "DE.AE-06": {
+          "title": "Information on adverse events is provided to authorized staff and tools",
+          "group": "DE",
+          "group_name": "Detect",
+          "verification": "verified"
+        },
+        "DE.AE-08": {
+          "title": "Incidents are declared when adverse events meet the defined incident criteria",
+          "group": "DE",
+          "group_name": "Detect",
+          "verification": "verified"
+        },
+        "DE.CM-01": {
+          "title": "Networks and network services are monitored to find potentially adverse events",
+          "group": "DE",
+          "group_name": "Detect",
+          "verification": "verified"
+        },
+        "DE.CM-03": {
+          "title": "Personnel activity and technology usage are monitored to find potentially adverse events",
+          "group": "DE",
+          "group_name": "Detect",
+          "verification": "verified"
+        },
+        "DE.CM-06": {
+          "title": "External service provider activities and services are monitored to find potentially adverse events",
+          "group": "DE",
+          "group_name": "Detect",
+          "verification": "verified"
+        },
+        "DE.CM-09": {
+          "title": "Computing hardware and software, runtime environments and their data are monitored to find potentially adverse events",
+          "group": "DE",
+          "group_name": "Detect",
+          "verification": "verified"
+        },
+        "RS.MA-01": {
+          "title": "The incident response plan is executed in coordination with relevant third parties once an incident is declared",
+          "group": "RS",
+          "group_name": "Respond",
+          "verification": "verified"
+        },
+        "RS.MA-02": {
+          "title": "Incident reports are triaged and validated",
+          "group": "RS",
+          "group_name": "Respond",
+          "verification": "verified"
+        },
+        "RS.MA-03": {
+          "title": "Incidents are categorized and prioritized",
+          "group": "RS",
+          "group_name": "Respond",
+          "verification": "verified"
+        },
+        "RS.AN-03": {
+          "title": "Analysis is performed to establish what has taken place during an incident and the root cause of the incident",
+          "group": "RS",
+          "group_name": "Respond",
+          "verification": "verified"
+        },
+        "RS.CO-02": {
+          "title": "Internal and external stakeholders are notified of incidents",
+          "group": "RS",
+          "group_name": "Respond",
+          "verification": "verified"
+        },
+        "RS.CO-03": {
+          "title": "Information is shared with designated internal and external stakeholders",
+          "group": "RS",
+          "group_name": "Respond",
+          "verification": "verified"
+        },
+        "RS.MI-01": {
+          "title": "Incidents are contained",
+          "group": "RS",
+          "group_name": "Respond",
+          "verification": "verified"
+        },
+        "RS.MI-02": {
+          "title": "Incidents are eradicated",
+          "group": "RS",
+          "group_name": "Respond",
+          "verification": "verified"
+        },
+        "RC.RP-01": {
+          "title": "The recovery portion of the incident response plan is executed once initiated from the incident response process",
+          "group": "RC",
+          "group_name": "Recover",
+          "verification": "verified"
+        },
+        "RC.RP-05": {
+          "title": "The integrity of restored assets is verified, systems and services are restored, and normal operating status is confirmed",
+          "group": "RC",
+          "group_name": "Recover",
+          "verification": "verified"
+        },
+        "RC.CO-03": {
+          "title": "Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders",
+          "group": "RC",
+          "group_name": "Recover",
+          "verification": "verified"
+        }
+      }
+    },
+    "cis": {
+      "id": "cis",
+      "name": "CIS Controls v8.1",
+      "long_name": "CIS Critical Security Controls version 8.1",
+      "authority": "Center for Internet Security",
+      "groups": {
+        "1": "Inventory and Control of Enterprise Assets",
+        "2": "Inventory and Control of Software Assets",
+        "3": "Data Protection",
+        "4": "Secure Configuration of Enterprise Assets and Software",
+        "5": "Account Management",
+        "6": "Access Control Management",
+        "7": "Continuous Vulnerability Management",
+        "8": "Audit Log Management",
+        "9": "Email and Web Browser Protections",
+        "10": "Malware Defenses",
+        "11": "Data Recovery",
+        "12": "Network Infrastructure Management",
+        "13": "Network Monitoring and Defense",
+        "14": "Security Awareness and Skills Training",
+        "15": "Service Provider Management",
+        "16": "Application Software Security",
+        "17": "Incident Response Management",
+        "18": "Penetration Testing"
+      },
+      "controls": {
+        "1.1": {
+          "title": "Establish and maintain detailed enterprise asset inventory",
+          "group": "1",
+          "group_name": "Inventory and Control of Enterprise Assets",
+          "verification": "verified"
+        },
+        "1.2": {
+          "title": "Address unauthorized assets",
+          "group": "1",
+          "group_name": "Inventory and Control of Enterprise Assets",
+          "verification": "verified"
+        },
+        "2.1": {
+          "title": "Establish and maintain a software inventory",
+          "group": "2",
+          "group_name": "Inventory and Control of Software Assets",
+          "verification": "verified"
+        },
+        "2.2": {
+          "title": "Ensure authorized software is currently supported",
+          "group": "2",
+          "group_name": "Inventory and Control of Software Assets",
+          "verification": "verified"
+        },
+        "2.3": {
+          "title": "Address unauthorized software",
+          "group": "2",
+          "group_name": "Inventory and Control of Software Assets",
+          "verification": "verified"
+        },
+        "2.5": {
+          "title": "Allowlist authorized software",
+          "group": "2",
+          "group_name": "Inventory and Control of Software Assets",
+          "verification": "verified"
+        },
+        "2.7": {
+          "title": "Allowlist authorized scripts",
+          "group": "2",
+          "group_name": "Inventory and Control of Software Assets",
+          "verification": "verified"
+        },
+        "3.1": {
+          "title": "Establish and maintain a data management process",
+          "group": "3",
+          "group_name": "Data Protection",
+          "verification": "verified"
+        },
+        "3.3": {
+          "title": "Configure data access control lists",
+          "group": "3",
+          "group_name": "Data Protection",
+          "verification": "verified"
+        },
+        "3.7": {
+          "title": "Establish and maintain a data classification scheme",
+          "group": "3",
+          "group_name": "Data Protection",
+          "verification": "verified"
+        },
+        "3.10": {
+          "title": "Encrypt sensitive data in transit",
+          "group": "3",
+          "group_name": "Data Protection",
+          "verification": "verified"
+        },
+        "3.11": {
+          "title": "Encrypt sensitive data at rest",
+          "group": "3",
+          "group_name": "Data Protection",
+          "verification": "verified"
+        },
+        "3.13": {
+          "title": "Deploy a data loss prevention solution",
+          "group": "3",
+          "group_name": "Data Protection",
+          "verification": "verified"
+        },
+        "3.14": {
+          "title": "Log sensitive data access",
+          "group": "3",
+          "group_name": "Data Protection",
+          "verification": "verified"
+        },
+        "4.1": {
+          "title": "Establish and maintain a secure configuration process",
+          "group": "4",
+          "group_name": "Secure Configuration of Enterprise Assets and Software",
+          "verification": "verified"
+        },
+        "4.2": {
+          "title": "Establish and maintain a secure configuration process for network infrastructure",
+          "group": "4",
+          "group_name": "Secure Configuration of Enterprise Assets and Software",
+          "verification": "verified"
+        },
+        "4.4": {
+          "title": "Implement and manage a firewall on servers",
+          "group": "4",
+          "group_name": "Secure Configuration of Enterprise Assets and Software",
+          "verification": "verified"
+        },
+        "4.6": {
+          "title": "Securely manage enterprise assets and software",
+          "group": "4",
+          "group_name": "Secure Configuration of Enterprise Assets and Software",
+          "verification": "verified"
+        },
+        "4.7": {
+          "title": "Manage default accounts on enterprise assets and software",
+          "group": "4",
+          "group_name": "Secure Configuration of Enterprise Assets and Software",
+          "verification": "verified"
+        },
+        "4.8": {
+          "title": "Uninstall or disable unnecessary services on enterprise assets and software",
+          "group": "4",
+          "group_name": "Secure Configuration of Enterprise Assets and Software",
+          "verification": "verified"
+        },
+        "5.1": {
+          "title": "Establish and maintain an inventory of accounts",
+          "group": "5",
+          "group_name": "Account Management",
+          "verification": "verified"
+        },
+        "5.2": {
+          "title": "Use unique passwords",
+          "group": "5",
+          "group_name": "Account Management",
+          "verification": "verified"
+        },
+        "5.3": {
+          "title": "Disable dormant accounts",
+          "group": "5",
+          "group_name": "Account Management",
+          "verification": "verified"
+        },
+        "5.4": {
+          "title": "Restrict administrator privileges to dedicated administrator accounts",
+          "group": "5",
+          "group_name": "Account Management",
+          "verification": "verified"
+        },
+        "6.1": {
+          "title": "Establish an access granting process",
+          "group": "6",
+          "group_name": "Access Control Management",
+          "verification": "verified"
+        },
+        "6.2": {
+          "title": "Establish an access revoking process",
+          "group": "6",
+          "group_name": "Access Control Management",
+          "verification": "verified"
+        },
+        "6.3": {
+          "title": "Require MFA for externally-exposed applications",
+          "group": "6",
+          "group_name": "Access Control Management",
+          "verification": "verified"
+        },
+        "6.4": {
+          "title": "Require MFA for remote network access",
+          "group": "6",
+          "group_name": "Access Control Management",
+          "verification": "verified"
+        },
+        "6.5": {
+          "title": "Require MFA for administrative access",
+          "group": "6",
+          "group_name": "Access Control Management",
+          "verification": "verified"
+        },
+        "6.7": {
+          "title": "Centralize access control",
+          "group": "6",
+          "group_name": "Access Control Management",
+          "verification": "verified"
+        },
+        "6.8": {
+          "title": "Define and maintain role-based access control",
+          "group": "6",
+          "group_name": "Access Control Management",
+          "verification": "verified"
+        },
+        "7.1": {
+          "title": "Establish and maintain a vulnerability management process",
+          "group": "7",
+          "group_name": "Continuous Vulnerability Management",
+          "verification": "verified"
+        },
+        "7.2": {
+          "title": "Establish and maintain a remediation process",
+          "group": "7",
+          "group_name": "Continuous Vulnerability Management",
+          "verification": "verified"
+        },
+        "7.3": {
+          "title": "Perform automated operating system patch management",
+          "group": "7",
+          "group_name": "Continuous Vulnerability Management",
+          "verification": "verified"
+        },
+        "7.4": {
+          "title": "Perform automated application patch management",
+          "group": "7",
+          "group_name": "Continuous Vulnerability Management",
+          "verification": "verified"
+        },
+        "7.5": {
+          "title": "Perform automated vulnerability scans of internal enterprise assets",
+          "group": "7",
+          "group_name": "Continuous Vulnerability Management",
+          "verification": "verified"
+        },
+        "7.6": {
+          "title": "Perform automated vulnerability scans of externally-exposed enterprise assets",
+          "group": "7",
+          "group_name": "Continuous Vulnerability Management",
+          "verification": "verified"
+        },
+        "7.7": {
+          "title": "Remediate detected vulnerabilities",
+          "group": "7",
+          "group_name": "Continuous Vulnerability Management",
+          "verification": "verified"
+        },
+        "8.2": {
+          "title": "Collect audit logs",
+          "group": "8",
+          "group_name": "Audit Log Management",
+          "verification": "verified"
+        },
+        "8.5": {
+          "title": "Collect detailed audit logs",
+          "group": "8",
+          "group_name": "Audit Log Management",
+          "verification": "verified"
+        },
+        "8.9": {
+          "title": "Centralize audit logs",
+          "group": "8",
+          "group_name": "Audit Log Management",
+          "verification": "verified"
+        },
+        "8.11": {
+          "title": "Conduct audit log reviews",
+          "group": "8",
+          "group_name": "Audit Log Management",
+          "verification": "verified"
+        },
+        "9.1": {
+          "title": "Ensure use of only fully supported browsers and email clients",
+          "group": "9",
+          "group_name": "Email and Web Browser Protections",
+          "verification": "verified"
+        },
+        "9.2": {
+          "title": "Use DNS filtering services",
+          "group": "9",
+          "group_name": "Email and Web Browser Protections",
+          "verification": "verified"
+        },
+        "9.6": {
+          "title": "Block unnecessary file types",
+          "group": "9",
+          "group_name": "Email and Web Browser Protections",
+          "verification": "verified"
+        },
+        "9.7": {
+          "title": "Deploy and maintain email server anti-malware protections",
+          "group": "9",
+          "group_name": "Email and Web Browser Protections",
+          "verification": "verified"
+        },
+        "10.1": {
+          "title": "Deploy and maintain anti-malware software",
+          "group": "10",
+          "group_name": "Malware Defenses",
+          "verification": "verified"
+        },
+        "10.2": {
+          "title": "Configure automatic anti-malware signature updates",
+          "group": "10",
+          "group_name": "Malware Defenses",
+          "verification": "verified"
+        },
+        "10.5": {
+          "title": "Enable anti-exploitation features",
+          "group": "10",
+          "group_name": "Malware Defenses",
+          "verification": "verified"
+        },
+        "10.7": {
+          "title": "Use behaviour-based anti-malware software",
+          "group": "10",
+          "group_name": "Malware Defenses",
+          "verification": "verified"
+        },
+        "11.2": {
+          "title": "Perform automated backups",
+          "group": "11",
+          "group_name": "Data Recovery",
+          "verification": "verified"
+        },
+        "11.3": {
+          "title": "Protect recovery data",
+          "group": "11",
+          "group_name": "Data Recovery",
+          "verification": "verified"
+        },
+        "11.4": {
+          "title": "Establish and maintain an isolated instance of recovery data",
+          "group": "11",
+          "group_name": "Data Recovery",
+          "verification": "verified"
+        },
+        "11.5": {
+          "title": "Test data recovery",
+          "group": "11",
+          "group_name": "Data Recovery",
+          "verification": "verified"
+        },
+        "12.2": {
+          "title": "Establish and maintain a secure network architecture",
+          "group": "12",
+          "group_name": "Network Infrastructure Management",
+          "verification": "verified"
+        },
+        "12.6": {
+          "title": "Use of secure network management and communication protocols",
+          "group": "12",
+          "group_name": "Network Infrastructure Management",
+          "verification": "verified"
+        },
+        "12.8": {
+          "title": "Establish and maintain dedicated computing resources for all administrative work",
+          "group": "12",
+          "group_name": "Network Infrastructure Management",
+          "verification": "verified"
+        },
+        "13.1": {
+          "title": "Centralize security event alerting",
+          "group": "13",
+          "group_name": "Network Monitoring and Defense",
+          "verification": "verified"
+        },
+        "13.2": {
+          "title": "Deploy a host-based intrusion detection solution",
+          "group": "13",
+          "group_name": "Network Monitoring and Defense",
+          "verification": "verified"
+        },
+        "13.3": {
+          "title": "Deploy a network intrusion detection solution",
+          "group": "13",
+          "group_name": "Network Monitoring and Defense",
+          "verification": "verified"
+        },
+        "13.4": {
+          "title": "Perform traffic filtering between network segments",
+          "group": "13",
+          "group_name": "Network Monitoring and Defense",
+          "verification": "verified"
+        },
+        "13.6": {
+          "title": "Collect network traffic flow logs",
+          "group": "13",
+          "group_name": "Network Monitoring and Defense",
+          "verification": "verified"
+        },
+        "13.10": {
+          "title": "Perform application layer filtering",
+          "group": "13",
+          "group_name": "Network Monitoring and Defense",
+          "verification": "verified"
+        },
+        "14.1": {
+          "title": "Establish and maintain a security awareness program",
+          "group": "14",
+          "group_name": "Security Awareness and Skills Training",
+          "verification": "verified"
+        },
+        "14.2": {
+          "title": "Train workforce members to recognize social engineering attacks",
+          "group": "14",
+          "group_name": "Security Awareness and Skills Training",
+          "verification": "verified"
+        },
+        "14.6": {
+          "title": "Train workforce members on recognizing and reporting security incidents",
+          "group": "14",
+          "group_name": "Security Awareness and Skills Training",
+          "verification": "verified"
+        },
+        "15.1": {
+          "title": "Establish and maintain an inventory of service providers",
+          "group": "15",
+          "group_name": "Service Provider Management",
+          "verification": "verified"
+        },
+        "15.4": {
+          "title": "Ensure service provider contracts include security requirements",
+          "group": "15",
+          "group_name": "Service Provider Management",
+          "verification": "verified"
+        },
+        "16.1": {
+          "title": "Establish and maintain a secure application development process",
+          "group": "16",
+          "group_name": "Application Software Security",
+          "verification": "verified"
+        },
+        "16.2": {
+          "title": "Establish and maintain a process to accept and address software vulnerabilities",
+          "group": "16",
+          "group_name": "Application Software Security",
+          "verification": "verified"
+        },
+        "16.5": {
+          "title": "Use up-to-date and trusted third-party software components",
+          "group": "16",
+          "group_name": "Application Software Security",
+          "verification": "verified"
+        },
+        "16.11": {
+          "title": "Leverage vetted modules or services for application security components",
+          "group": "16",
+          "group_name": "Application Software Security",
+          "verification": "verified"
+        },
+        "16.12": {
+          "title": "Implement code-level security checks",
+          "group": "16",
+          "group_name": "Application Software Security",
+          "verification": "verified"
+        },
+        "16.13": {
+          "title": "Conduct application penetration testing",
+          "group": "16",
+          "group_name": "Application Software Security",
+          "verification": "verified"
+        },
+        "17.1": {
+          "title": "Designate personnel to manage incident handling",
+          "group": "17",
+          "group_name": "Incident Response Management",
+          "verification": "verified"
+        },
+        "17.3": {
+          "title": "Establish and maintain an enterprise process for reporting incidents",
+          "group": "17",
+          "group_name": "Incident Response Management",
+          "verification": "verified"
+        },
+        "17.4": {
+          "title": "Establish and maintain an incident response process",
+          "group": "17",
+          "group_name": "Incident Response Management",
+          "verification": "verified"
+        },
+        "17.7": {
+          "title": "Conduct routine incident response exercises",
+          "group": "17",
+          "group_name": "Incident Response Management",
+          "verification": "verified"
+        },
+        "18.1": {
+          "title": "Establish and maintain a penetration testing program",
+          "group": "18",
+          "group_name": "Penetration Testing",
+          "verification": "verified"
+        },
+        "18.2": {
+          "title": "Perform periodic external penetration tests",
+          "group": "18",
+          "group_name": "Penetration Testing",
+          "verification": "verified"
+        },
+        "18.3": {
+          "title": "Remediate penetration test findings",
+          "group": "18",
+          "group_name": "Penetration Testing",
+          "verification": "verified"
+        }
+      }
+    },
+    "rbi": {
+      "id": "rbi",
+      "name": "RBI Cyber Security Framework",
+      "long_name": "RBI Cyber Security Framework in Banks — Annex 1 Baseline Cyber Security and Resilience Requirements (circular DBS.CO/CSITE/BC.11/33.01.001/2015-16, 2 June 2016)",
+      "authority": "Reserve Bank of India",
+      "groups": {
+        "A1": "Annex 1 — Baseline cyber security and resilience requirements",
+        "A2": "Annex 2 — Cyber Security Operations Centre (C-SOC)",
+        "A3": "Annex 3 — Cyber Crisis Management Plan (CCMP)"
+      },
+      "controls": {
+        "RBI-A1-01": {
+          "title": "Inventory management of business IT assets",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-02": {
+          "title": "Preventing execution of unauthorised software",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-03": {
+          "title": "Environmental controls",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-04": {
+          "title": "Network management and security",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-05": {
+          "title": "Secure configuration",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-06": {
+          "title": "Application security life cycle (ASLC)",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-07": {
+          "title": "Patch / vulnerability and change management",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-08": {
+          "title": "User access control and management",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-09": {
+          "title": "Authentication framework for customers",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-10": {
+          "title": "Secure mail and messaging systems",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-11": {
+          "title": "Removable media",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-12": {
+          "title": "Advanced real-time threat defence and management",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-13": {
+          "title": "Anti-phishing",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-14": {
+          "title": "Data leak prevention strategy",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-15": {
+          "title": "Maintenance, monitoring and analysis of audit logs",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-16": {
+          "title": "Audit log settings",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-17": {
+          "title": "Vulnerability assessment, penetration testing and red team exercises",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-18": {
+          "title": "Incident response and management",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-19": {
+          "title": "Risk based transaction monitoring",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-20": {
+          "title": "Metrics",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-21": {
+          "title": "Forensics",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-22": {
+          "title": "User, employee and management awareness",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-23": {
+          "title": "Customer education and awareness",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-24": {
+          "title": "Backup and recovery of data",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A1-25": {
+          "title": "Vendor and outsourcing risk management",
+          "group": "A1",
+          "group_name": "Annex 1 — Baseline cyber security and resilience requirements",
+          "verification": "inferred",
+          "note": "Title substantively correct; official Annex 1 numbering unconfirmed."
+        },
+        "RBI-A2-01": {
+          "title": "Cyber Security Operations Centre with continuous surveillance",
+          "group": "A2",
+          "group_name": "Annex 2 — Cyber Security Operations Centre (C-SOC)",
+          "verification": "inferred",
+          "note": "Derived from the annex subject matter; not an official clause number."
+        },
+        "RBI-A2-02": {
+          "title": "C-SOC threat intelligence, correlation and forensic capability",
+          "group": "A2",
+          "group_name": "Annex 2 — Cyber Security Operations Centre (C-SOC)",
+          "verification": "inferred",
+          "note": "Derived from the annex subject matter; not an official clause number."
+        },
+        "RBI-A3-01": {
+          "title": "Board-approved Cyber Crisis Management Plan",
+          "group": "A3",
+          "group_name": "Annex 3 — Cyber Crisis Management Plan (CCMP)",
+          "verification": "inferred",
+          "note": "Derived from the annex subject matter; not an official clause number."
+        },
+        "RBI-A3-02": {
+          "title": "Detection, response, recovery and containment of cyber incidents",
+          "group": "A3",
+          "group_name": "Annex 3 — Cyber Crisis Management Plan (CCMP)",
+          "verification": "inferred",
+          "note": "Derived from the annex subject matter; not an official clause number."
+        },
+        "RBI-A3-03": {
+          "title": "Reporting of unusual cyber security incidents to RBI",
+          "group": "A3",
+          "group_name": "Annex 3 — Cyber Crisis Management Plan (CCMP)",
+          "verification": "inferred",
+          "note": "Derived from the annex subject matter; not an official clause number."
+        }
+      }
+    },
+    "sebi": {
+      "id": "sebi",
+      "name": "SEBI CSCRF",
+      "long_name": "SEBI Cybersecurity and Cyber Resilience Framework for Regulated Entities (circular SEBI/HO/ITD-1/ITD_CSC_EXT/P/CIR/2024/113, 20 August 2024)",
+      "authority": "Securities and Exchange Board of India",
+      "groups": {
+        "GV": "Govern",
+        "ID": "Identify",
+        "PR": "Protect",
+        "DE": "Detect",
+        "RS": "Respond",
+        "RC": "Recover"
+      },
+      "controls": {
+        "SEBI-GV-01": {
+          "title": "Board-approved cybersecurity and cyber resilience policy",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "assigned",
+          "basis": "CSCRF requires a board/partner/proprietor-approved policy reviewed at least annually.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-GV-02": {
+          "title": "Designated senior official responsible for cybersecurity",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "assigned",
+          "basis": "RE must designate a senior official (CISO or equivalent) accountable for the framework.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-GV-03": {
+          "title": "Cyber Capability Index (CCI) measurement and reporting",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "assigned",
+          "basis": "MIIs and Qualified REs must measure cyber resilience through the CCI; MIIs quarterly, Qualified REs annually.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-GV-04": {
+          "title": "Third-party and outsourcing cyber risk governance",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "assigned",
+          "basis": "Vendor/outsourcing arrangements must carry cybersecurity obligations and be assessed.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-GV-05": {
+          "title": "Periodic cyber audit and submission to SEBI",
+          "group": "GV",
+          "group_name": "Govern",
+          "verification": "assigned",
+          "basis": "Cyber audits at the cadence set for the RE category, with findings reported to SEBI.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-ID-01": {
+          "title": "Identification and classification of critical systems",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "assigned",
+          "basis": "REs must identify critical systems and maintain a board-approved list.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-ID-02": {
+          "title": "Asset inventory including hardware, software and data",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "assigned",
+          "basis": "Comprehensive, current inventory of IT assets supporting critical systems.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-ID-03": {
+          "title": "Software Bill of Materials (SBOM) for critical systems",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "assigned",
+          "basis": "CSCRF introduces SBOM obligations for critical systems and new procurements.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-ID-04": {
+          "title": "Risk assessment covering threats and vulnerabilities",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "assigned",
+          "basis": "Documented risk assessment methodology linking threat, vulnerability and impact.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-ID-05": {
+          "title": "Vulnerability assessment and penetration testing (VAPT)",
+          "group": "ID",
+          "group_name": "Identify",
+          "verification": "assigned",
+          "basis": "VAPT at the prescribed cadence, scoped to critical systems, with closure of findings and re-testing; reports submitted to SEBI.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-PR-01": {
+          "title": "Access control and privilege management",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "assigned",
+          "basis": "Least-privilege access, periodic review and removal of dormant privilege.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-PR-02": {
+          "title": "Multi-factor authentication for critical access",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "assigned",
+          "basis": "MFA required for access to critical systems and remote/administrative access.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-PR-03": {
+          "title": "Network segregation and perimeter security",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "assigned",
+          "basis": "Segregation of critical systems, controlled perimeter and secure configuration.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-PR-04": {
+          "title": "Patch and vulnerability remediation management",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "assigned",
+          "basis": "Timely patching with documented risk-based prioritisation of remediation.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-PR-05": {
+          "title": "Data protection, encryption and data localisation",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "assigned",
+          "basis": "Protection of data at rest and in transit; CSCRF sets expectations on storage of regulatory data within India.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-PR-06": {
+          "title": "Secure software development and application security",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "assigned",
+          "basis": "Security embedded in the application life cycle for RE-developed systems.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-PR-07": {
+          "title": "Cybersecurity training and awareness",
+          "group": "PR",
+          "group_name": "Protect",
+          "verification": "assigned",
+          "basis": "Periodic training for employees and, where relevant, investors/customers.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-DE-01": {
+          "title": "Security Operations Centre monitoring",
+          "group": "DE",
+          "group_name": "Detect",
+          "verification": "assigned",
+          "basis": "SOC coverage — own, group or market SOC — with continuous monitoring; smaller REs may use the SEBI-facilitated market SOC.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-DE-02": {
+          "title": "Centralised logging and log retention",
+          "group": "DE",
+          "group_name": "Detect",
+          "verification": "assigned",
+          "basis": "Logs captured, protected and retained for the prescribed period.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-DE-03": {
+          "title": "Continuous threat detection and alerting",
+          "group": "DE",
+          "group_name": "Detect",
+          "verification": "assigned",
+          "basis": "Detection capability with defined alert triage for critical systems.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-RS-01": {
+          "title": "Incident response plan and containment procedures",
+          "group": "RS",
+          "group_name": "Respond",
+          "verification": "assigned",
+          "basis": "Documented, tested incident response covering containment and eradication.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-RS-02": {
+          "title": "Incident reporting to SEBI and CERT-In within timelines",
+          "group": "RS",
+          "group_name": "Respond",
+          "verification": "assigned",
+          "basis": "Cyber incidents reported to SEBI and CERT-In within the stipulated timelines.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-RS-03": {
+          "title": "Root cause analysis and forensic capability",
+          "group": "RS",
+          "group_name": "Respond",
+          "verification": "assigned",
+          "basis": "RCA and forensic readiness following significant incidents.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-RC-01": {
+          "title": "Recovery, RTO/RPO objectives and business continuity",
+          "group": "RC",
+          "group_name": "Recover",
+          "verification": "assigned",
+          "basis": "BCP-DR with defined recovery objectives for critical systems and periodic drills.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        },
+        "SEBI-RC-02": {
+          "title": "Backup integrity and restoration testing",
+          "group": "RC",
+          "group_name": "Recover",
+          "verification": "assigned",
+          "basis": "Protected backups with tested restoration for critical systems.",
+          "note": "Platform-assigned identifier; SEBI's official standard number unconfirmed."
+        }
+      },
+      "resilience_goals": [
+        "Anticipate",
+        "Withstand",
+        "Contain",
+        "Recover",
+        "Evolve"
+      ],
+      "re_categories": [
+        "Market Infrastructure Institution",
+        "Qualified RE",
+        "Mid-size RE",
+        "Small-size RE",
+        "Self-certification RE"
+      ]
+    }
+  },
+  "vulnerability_classes": [
+    {
+      "key": "rce_injection",
+      "label": "Remote code execution / command injection",
+      "cwes": [
+        "CWE-94",
+        "CWE-95",
+        "CWE-77",
+        "CWE-78",
+        "CWE-917",
+        "CWE-1336"
+      ],
+      "keywords": [
+        "remote code execution",
+        "command injection",
+        "rce",
+        "code injection",
+        "template injection",
+        "expression language"
+      ],
+      "rationale": "Unauthenticated code execution defeats application input validation and network containment simultaneously, so it is evidence against secure-development, network-protection and malware-defence controls at once.",
+      "controls": {
+        "iso27001": [
+          "A.8.7",
+          "A.8.8",
+          "A.8.20",
+          "A.8.26",
+          "A.8.28"
+        ],
+        "nistcsf": [
+          "DE.CM-09",
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.IR-01",
+          "PR.PS-02",
+          "PR.PS-06"
+        ],
+        "cis": [
+          "4.8",
+          "7.1",
+          "7.5",
+          "7.7",
+          "10.5",
+          "13.10",
+          "16.12"
+        ],
+        "rbi": [
+          "RBI-A1-04",
+          "RBI-A1-06",
+          "RBI-A1-07",
+          "RBI-A1-12"
+        ],
+        "sebi": [
+          "SEBI-DE-03",
+          "SEBI-ID-05",
+          "SEBI-PR-03",
+          "SEBI-PR-04",
+          "SEBI-PR-06"
+        ]
+      }
+    },
+    {
+      "key": "deserialization",
+      "label": "Untrusted deserialization",
+      "cwes": [
+        "CWE-502"
+      ],
+      "keywords": [
+        "deserialization",
+        "deserialisation",
+        "unmarshal",
+        "openwire",
+        "pickle",
+        "objectinputstream"
+      ],
+      "rationale": "Deserialization flaws almost always arrive through a third-party component, so they implicate component inventory and SBOM obligations as much as coding practice.",
+      "controls": {
+        "iso27001": [
+          "A.8.8",
+          "A.8.25",
+          "A.8.26",
+          "A.8.28"
+        ],
+        "nistcsf": [
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.PS-02",
+          "PR.PS-06"
+        ],
+        "cis": [
+          "7.1",
+          "7.5",
+          "7.7",
+          "16.5",
+          "16.11",
+          "16.12"
+        ],
+        "rbi": [
+          "RBI-A1-06",
+          "RBI-A1-07"
+        ],
+        "sebi": [
+          "SEBI-ID-03",
+          "SEBI-ID-05",
+          "SEBI-PR-04",
+          "SEBI-PR-06"
+        ]
+      }
+    },
+    {
+      "key": "sql_injection",
+      "label": "SQL / NoSQL injection",
+      "cwes": [
+        "CWE-89",
+        "CWE-564",
+        "CWE-943"
+      ],
+      "keywords": [
+        "sql injection",
+        "sqli",
+        "nosql injection",
+        "blind sql"
+      ],
+      "rationale": "Injection into a datastore is both an application-security failure and a data-access-control failure, and the audit trail is what proves scope of exposure.",
+      "controls": {
+        "iso27001": [
+          "A.8.3",
+          "A.8.8",
+          "A.8.11",
+          "A.8.26",
+          "A.8.28"
+        ],
+        "nistcsf": [
+          "DE.CM-09",
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.DS-01",
+          "PR.PS-06"
+        ],
+        "cis": [
+          "3.3",
+          "3.14",
+          "7.1",
+          "7.5",
+          "7.7",
+          "13.10",
+          "16.12"
+        ],
+        "rbi": [
+          "RBI-A1-06",
+          "RBI-A1-07",
+          "RBI-A1-15"
+        ],
+        "sebi": [
+          "SEBI-DE-02",
+          "SEBI-ID-05",
+          "SEBI-PR-04",
+          "SEBI-PR-06"
+        ]
+      }
+    },
+    {
+      "key": "path_traversal_upload",
+      "label": "Path traversal / unrestricted file upload",
+      "cwes": [
+        "CWE-22",
+        "CWE-23",
+        "CWE-36",
+        "CWE-434",
+        "CWE-73"
+      ],
+      "keywords": [
+        "path traversal",
+        "directory traversal",
+        "file upload",
+        "arbitrary file write",
+        "zip slip"
+      ],
+      "rationale": "Writing attacker-chosen files into a web root is the standard route to placing a web shell, which is why unauthorised-software controls appear here.",
+      "controls": {
+        "iso27001": [
+          "A.8.3",
+          "A.8.7",
+          "A.8.8",
+          "A.8.26",
+          "A.8.28"
+        ],
+        "nistcsf": [
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.DS-01",
+          "PR.PS-05",
+          "PR.PS-06"
+        ],
+        "cis": [
+          "2.3",
+          "3.3",
+          "7.1",
+          "7.5",
+          "7.7",
+          "10.1",
+          "16.12"
+        ],
+        "rbi": [
+          "RBI-A1-02",
+          "RBI-A1-06",
+          "RBI-A1-07"
+        ],
+        "sebi": [
+          "SEBI-ID-05",
+          "SEBI-PR-01",
+          "SEBI-PR-04",
+          "SEBI-PR-06"
+        ]
+      }
+    },
+    {
+      "key": "auth_bypass",
+      "label": "Authentication bypass / missing authentication",
+      "cwes": [
+        "CWE-287",
+        "CWE-288",
+        "CWE-290",
+        "CWE-294",
+        "CWE-306",
+        "CWE-304",
+        "CWE-1390"
+      ],
+      "keywords": [
+        "authentication bypass",
+        "auth bypass",
+        "missing authentication",
+        "improper authentication",
+        "unauthenticated access",
+        "jwt spoof"
+      ],
+      "rationale": "An authentication bypass is direct evidence that the authentication control objective is unmet, which is why multi-factor safeguards dominate the mapping.",
+      "controls": {
+        "iso27001": [
+          "A.5.15",
+          "A.5.16",
+          "A.5.17",
+          "A.8.5",
+          "A.8.8"
+        ],
+        "nistcsf": [
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.AA-01",
+          "PR.AA-02",
+          "PR.AA-03"
+        ],
+        "cis": [
+          "5.2",
+          "6.3",
+          "6.4",
+          "6.5",
+          "7.1",
+          "7.5",
+          "7.7"
+        ],
+        "rbi": [
+          "RBI-A1-07",
+          "RBI-A1-08",
+          "RBI-A1-09"
+        ],
+        "sebi": [
+          "SEBI-ID-05",
+          "SEBI-PR-01",
+          "SEBI-PR-02",
+          "SEBI-PR-04"
+        ]
+      }
+    },
+    {
+      "key": "authz_broken_access",
+      "label": "Broken access control / missing authorization",
+      "cwes": [
+        "CWE-862",
+        "CWE-863",
+        "CWE-639",
+        "CWE-284",
+        "CWE-732"
+      ],
+      "keywords": [
+        "broken access control",
+        "missing authorization",
+        "improper authorization",
+        "idor",
+        "insecure direct object",
+        "acl bypass"
+      ],
+      "rationale": "Failure of least privilege. Reviewers will want the access-rights review evidence, not just the patch.",
+      "controls": {
+        "iso27001": [
+          "A.5.15",
+          "A.5.18",
+          "A.8.2",
+          "A.8.3",
+          "A.8.8"
+        ],
+        "nistcsf": [
+          "DE.CM-03",
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.AA-05",
+          "PR.DS-01"
+        ],
+        "cis": [
+          "3.3",
+          "6.1",
+          "6.2",
+          "6.8",
+          "7.1",
+          "7.5",
+          "7.7"
+        ],
+        "rbi": [
+          "RBI-A1-07",
+          "RBI-A1-08"
+        ],
+        "sebi": [
+          "SEBI-ID-05",
+          "SEBI-PR-01",
+          "SEBI-PR-04"
+        ]
+      }
+    },
+    {
+      "key": "privilege_escalation",
+      "label": "Privilege escalation",
+      "cwes": [
+        "CWE-269",
+        "CWE-250",
+        "CWE-266",
+        "CWE-268",
+        "CWE-271"
+      ],
+      "keywords": [
+        "privilege escalation",
+        "elevation of privilege",
+        "escalate to root",
+        "domain admin",
+        "local privilege"
+      ],
+      "rationale": "Escalation paths are governed by privileged-access controls; the detective mapping matters because escalation is usually only visible in privileged-activity logs.",
+      "controls": {
+        "iso27001": [
+          "A.5.18",
+          "A.8.2",
+          "A.8.8",
+          "A.8.9",
+          "A.8.16"
+        ],
+        "nistcsf": [
+          "DE.CM-03",
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.AA-05",
+          "PR.PS-01"
+        ],
+        "cis": [
+          "4.7",
+          "5.4",
+          "6.8",
+          "7.1",
+          "7.5",
+          "7.7",
+          "12.8"
+        ],
+        "rbi": [
+          "RBI-A1-05",
+          "RBI-A1-07",
+          "RBI-A1-08"
+        ],
+        "sebi": [
+          "SEBI-DE-03",
+          "SEBI-ID-05",
+          "SEBI-PR-01",
+          "SEBI-PR-04"
+        ]
+      }
+    },
+    {
+      "key": "memory_corruption",
+      "label": "Memory corruption / buffer overflow",
+      "cwes": [
+        "CWE-119",
+        "CWE-120",
+        "CWE-121",
+        "CWE-122",
+        "CWE-124",
+        "CWE-125",
+        "CWE-126",
+        "CWE-416",
+        "CWE-476",
+        "CWE-787",
+        "CWE-788",
+        "CWE-190",
+        "CWE-191"
+      ],
+      "keywords": [
+        "buffer overflow",
+        "use-after-free",
+        "use after free",
+        "out-of-bounds",
+        "out of bounds",
+        "memory corruption",
+        "null pointer",
+        "integer overflow",
+        "heap overflow",
+        "stack overflow"
+      ],
+      "rationale": "Little can be done at configuration level, so the mapping leans on patching cadence and exploit-mitigation features rather than design controls.",
+      "controls": {
+        "iso27001": [
+          "A.8.7",
+          "A.8.8",
+          "A.8.19",
+          "A.8.28"
+        ],
+        "nistcsf": [
+          "DE.CM-09",
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.PS-02",
+          "PR.PS-05"
+        ],
+        "cis": [
+          "7.1",
+          "7.3",
+          "7.5",
+          "7.7",
+          "10.5",
+          "16.12"
+        ],
+        "rbi": [
+          "RBI-A1-07",
+          "RBI-A1-12"
+        ],
+        "sebi": [
+          "SEBI-DE-03",
+          "SEBI-ID-05",
+          "SEBI-PR-04"
+        ]
+      }
+    },
+    {
+      "key": "credential_exposure",
+      "label": "Hard-coded, weak or exposed credentials",
+      "cwes": [
+        "CWE-798",
+        "CWE-521",
+        "CWE-522",
+        "CWE-256",
+        "CWE-259",
+        "CWE-640"
+      ],
+      "keywords": [
+        "hard-coded credential",
+        "hardcoded password",
+        "default credential",
+        "weak password",
+        "password reset",
+        "credential exposure",
+        "account takeover"
+      ],
+      "rationale": "Credential weaknesses are the single most common precursor to account takeover, so phishing-resistant MFA is the control that actually closes the exposure.",
+      "controls": {
+        "iso27001": [
+          "A.5.16",
+          "A.5.17",
+          "A.8.5",
+          "A.8.8",
+          "A.8.24"
+        ],
+        "nistcsf": [
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.AA-01",
+          "PR.AA-03",
+          "PR.DS-01"
+        ],
+        "cis": [
+          "4.7",
+          "5.2",
+          "5.3",
+          "6.5",
+          "7.1",
+          "7.5",
+          "7.7"
+        ],
+        "rbi": [
+          "RBI-A1-07",
+          "RBI-A1-08",
+          "RBI-A1-09"
+        ],
+        "sebi": [
+          "SEBI-ID-05",
+          "SEBI-PR-01",
+          "SEBI-PR-02",
+          "SEBI-PR-04"
+        ]
+      }
+    },
+    {
+      "key": "crypto_transport",
+      "label": "Cryptographic weakness / insecure transport",
+      "cwes": [
+        "CWE-327",
+        "CWE-328",
+        "CWE-295",
+        "CWE-311",
+        "CWE-319",
+        "CWE-326",
+        "CWE-757"
+      ],
+      "keywords": [
+        "weak cipher",
+        "broken cryptograph",
+        "cleartext transmission",
+        "certificate validation",
+        "tls",
+        "ssl",
+        "insecure transport"
+      ],
+      "rationale": "Maps to cryptography and information-transfer controls; regulators treat cleartext handling of regulated data as a reportable control failure.",
+      "controls": {
+        "iso27001": [
+          "A.5.14",
+          "A.8.8",
+          "A.8.21",
+          "A.8.24"
+        ],
+        "nistcsf": [
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.DS-01",
+          "PR.DS-02"
+        ],
+        "cis": [
+          "3.10",
+          "3.11",
+          "7.1",
+          "7.5",
+          "7.7",
+          "12.6"
+        ],
+        "rbi": [
+          "RBI-A1-04",
+          "RBI-A1-05",
+          "RBI-A1-07"
+        ],
+        "sebi": [
+          "SEBI-ID-05",
+          "SEBI-PR-04",
+          "SEBI-PR-05"
+        ]
+      }
+    },
+    {
+      "key": "misconfiguration",
+      "label": "Insecure default or misconfiguration",
+      "cwes": [
+        "CWE-16",
+        "CWE-1188",
+        "CWE-1004",
+        "CWE-276",
+        "CWE-552",
+        "CWE-1032"
+      ],
+      "keywords": [
+        "misconfiguration",
+        "insecure default",
+        "default configuration",
+        "exposed management",
+        "setup page",
+        "unprotected"
+      ],
+      "rationale": "Configuration drift is a baseline-hardening failure, and the asset inventory is what determines whether the drift was even detectable.",
+      "controls": {
+        "iso27001": [
+          "A.5.10",
+          "A.8.8",
+          "A.8.9",
+          "A.8.19"
+        ],
+        "nistcsf": [
+          "DE.CM-09",
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.IR-01",
+          "PR.PS-01"
+        ],
+        "cis": [
+          "4.1",
+          "4.2",
+          "4.6",
+          "4.8",
+          "7.1",
+          "7.5",
+          "7.7"
+        ],
+        "rbi": [
+          "RBI-A1-01",
+          "RBI-A1-05",
+          "RBI-A1-07"
+        ],
+        "sebi": [
+          "SEBI-ID-02",
+          "SEBI-ID-05",
+          "SEBI-PR-03",
+          "SEBI-PR-04"
+        ]
+      }
+    },
+    {
+      "key": "info_disclosure",
+      "label": "Information disclosure / side channel",
+      "cwes": [
+        "CWE-200",
+        "CWE-209",
+        "CWE-532",
+        "CWE-203",
+        "CWE-208",
+        "CWE-1037",
+        "CWE-385"
+      ],
+      "keywords": [
+        "information disclosure",
+        "information leak",
+        "speculative execution",
+        "side channel",
+        "data sampling",
+        "timing attack",
+        "memory disclosure"
+      ],
+      "rationale": "Confidentiality-only impact, so the mapping is to classification and leakage controls rather than to availability or integrity objectives.",
+      "controls": {
+        "iso27001": [
+          "A.5.12",
+          "A.5.23",
+          "A.8.8",
+          "A.8.11",
+          "A.8.12"
+        ],
+        "nistcsf": [
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.DS-01",
+          "PR.DS-10"
+        ],
+        "cis": [
+          "3.1",
+          "3.11",
+          "3.13",
+          "7.1",
+          "7.5",
+          "7.7"
+        ],
+        "rbi": [
+          "RBI-A1-05",
+          "RBI-A1-07",
+          "RBI-A1-11",
+          "RBI-A1-14"
+        ],
+        "sebi": [
+          "SEBI-ID-05",
+          "SEBI-PR-04",
+          "SEBI-PR-05"
+        ]
+      }
+    },
+    {
+      "key": "web_client_side",
+      "label": "Cross-site scripting / request forgery",
+      "cwes": [
+        "CWE-79",
+        "CWE-80",
+        "CWE-352",
+        "CWE-601"
+      ],
+      "keywords": [
+        "cross-site scripting",
+        "xss",
+        "csrf",
+        "cross-site request forgery",
+        "open redirect"
+      ],
+      "rationale": "Client-side flaws are the delivery mechanism for phishing and session theft, which is why awareness and anti-phishing controls join the application mapping.",
+      "controls": {
+        "iso27001": [
+          "A.8.8",
+          "A.8.23",
+          "A.8.26",
+          "A.8.28"
+        ],
+        "nistcsf": [
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.IR-01",
+          "PR.PS-06"
+        ],
+        "cis": [
+          "7.1",
+          "7.5",
+          "7.7",
+          "9.1",
+          "9.2",
+          "13.10",
+          "16.12"
+        ],
+        "rbi": [
+          "RBI-A1-06",
+          "RBI-A1-07",
+          "RBI-A1-10",
+          "RBI-A1-13"
+        ],
+        "sebi": [
+          "SEBI-ID-05",
+          "SEBI-PR-04",
+          "SEBI-PR-06",
+          "SEBI-PR-07"
+        ]
+      }
+    },
+    {
+      "key": "ssrf_xxe",
+      "label": "Server-side request forgery / XML external entity",
+      "cwes": [
+        "CWE-918",
+        "CWE-611",
+        "CWE-776"
+      ],
+      "keywords": [
+        "server-side request forgery",
+        "ssrf",
+        "xml external entity",
+        "xxe",
+        "entity expansion"
+      ],
+      "rationale": "SSRF converts an application flaw into lateral network reach, so segmentation is the compensating control a reviewer will look for.",
+      "controls": {
+        "iso27001": [
+          "A.8.8",
+          "A.8.20",
+          "A.8.22",
+          "A.8.26"
+        ],
+        "nistcsf": [
+          "DE.CM-01",
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.IR-01",
+          "PR.PS-06"
+        ],
+        "cis": [
+          "7.1",
+          "7.5",
+          "7.7",
+          "12.2",
+          "13.4",
+          "16.12"
+        ],
+        "rbi": [
+          "RBI-A1-04",
+          "RBI-A1-06",
+          "RBI-A1-07"
+        ],
+        "sebi": [
+          "SEBI-ID-05",
+          "SEBI-PR-03",
+          "SEBI-PR-04",
+          "SEBI-PR-06"
+        ]
+      }
+    },
+    {
+      "key": "supply_chain",
+      "label": "Vulnerable or untrusted third-party component",
+      "cwes": [
+        "CWE-1104",
+        "CWE-494",
+        "CWE-829",
+        "CWE-1357",
+        "CWE-1395"
+      ],
+      "keywords": [
+        "third-party component",
+        "unmaintained",
+        "supply chain",
+        "dependency",
+        "untrusted download",
+        "outdated library",
+        "end of life",
+        "end-of-life"
+      ],
+      "rationale": "The clearest place where SBOM obligations bite: you cannot report on component risk you have not inventoried.",
+      "controls": {
+        "iso27001": [
+          "A.5.19",
+          "A.5.21",
+          "A.8.8",
+          "A.8.19",
+          "A.8.25"
+        ],
+        "nistcsf": [
+          "GV.SC-04",
+          "GV.SC-07",
+          "ID.AM-02",
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.PS-02"
+        ],
+        "cis": [
+          "2.1",
+          "2.2",
+          "7.1",
+          "7.5",
+          "7.7",
+          "15.1",
+          "15.4",
+          "16.5"
+        ],
+        "rbi": [
+          "RBI-A1-06",
+          "RBI-A1-07",
+          "RBI-A1-25"
+        ],
+        "sebi": [
+          "SEBI-GV-04",
+          "SEBI-ID-03",
+          "SEBI-ID-05",
+          "SEBI-PR-04"
+        ]
+      }
+    },
+    {
+      "key": "dos_resource",
+      "label": "Denial of service / resource exhaustion",
+      "cwes": [
+        "CWE-400",
+        "CWE-770",
+        "CWE-674",
+        "CWE-405",
+        "CWE-1050"
+      ],
+      "keywords": [
+        "denial of service",
+        "dos",
+        "resource exhaustion",
+        "infinite loop",
+        "uncontrolled recursion",
+        "amplification"
+      ],
+      "rationale": "Availability-only impact maps to capacity, resilience and recovery objectives — the controls that determine whether an outage becomes a reportable disruption.",
+      "controls": {
+        "iso27001": [
+          "A.5.30",
+          "A.8.6",
+          "A.8.8",
+          "A.8.20"
+        ],
+        "nistcsf": [
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.IR-03",
+          "PR.IR-04",
+          "RC.RP-01"
+        ],
+        "cis": [
+          "7.1",
+          "7.5",
+          "7.7",
+          "11.5",
+          "12.2",
+          "13.3"
+        ],
+        "rbi": [
+          "RBI-A1-04",
+          "RBI-A1-07",
+          "RBI-A1-18"
+        ],
+        "sebi": [
+          "SEBI-ID-05",
+          "SEBI-PR-03",
+          "SEBI-PR-04",
+          "SEBI-RC-01"
+        ]
+      }
+    },
+    {
+      "key": "race_condition",
+      "label": "Race condition / time-of-check flaw",
+      "cwes": [
+        "CWE-362",
+        "CWE-367",
+        "CWE-366",
+        "CWE-364"
+      ],
+      "keywords": [
+        "race condition",
+        "time-of-check",
+        "toctou",
+        "concurrent execution"
+      ],
+      "rationale": "Rarely caught by scanners, so the mapping points at security testing and penetration testing rather than at patch cadence.",
+      "controls": {
+        "iso27001": [
+          "A.8.8",
+          "A.8.28",
+          "A.8.29"
+        ],
+        "nistcsf": [
+          "ID.IM-02",
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.PS-06"
+        ],
+        "cis": [
+          "7.1",
+          "7.5",
+          "7.7",
+          "16.12",
+          "16.13"
+        ],
+        "rbi": [
+          "RBI-A1-06",
+          "RBI-A1-07",
+          "RBI-A1-17"
+        ],
+        "sebi": [
+          "SEBI-ID-05",
+          "SEBI-PR-04",
+          "SEBI-PR-06"
+        ]
+      }
+    },
+    {
+      "key": "malware_ransomware",
+      "label": "Ransomware / destructive malware exposure",
+      "cwes": [
+        "CWE-506",
+        "CWE-507",
+        "CWE-510",
+        "CWE-912"
+      ],
+      "keywords": [
+        "ransomware",
+        "wiper",
+        "encrypt files",
+        "extortion",
+        "botnet",
+        "web shell",
+        "backdoor",
+        "cryptomining"
+      ],
+      "rationale": "Ransomware is the case where recovery controls carry more of the residual-risk reduction than preventive ones, so backups are mapped as first-class evidence.",
+      "controls": {
+        "iso27001": [
+          "A.5.29",
+          "A.5.30",
+          "A.8.7",
+          "A.8.8",
+          "A.8.13"
+        ],
+        "nistcsf": [
+          "DE.CM-09",
+          "ID.RA-01",
+          "ID.RA-05",
+          "PR.DS-11",
+          "RC.RP-01",
+          "RS.MI-01",
+          "RS.MI-02"
+        ],
+        "cis": [
+          "2.5",
+          "2.7",
+          "7.1",
+          "7.5",
+          "7.7",
+          "10.1",
+          "10.2",
+          "10.7",
+          "11.2",
+          "11.3",
+          "11.4",
+          "11.5"
+        ],
+        "rbi": [
+          "RBI-A1-07",
+          "RBI-A1-12",
+          "RBI-A1-18",
+          "RBI-A1-24"
+        ],
+        "sebi": [
+          "SEBI-ID-05",
+          "SEBI-PR-04",
+          "SEBI-RC-01",
+          "SEBI-RC-02",
+          "SEBI-RS-01"
+        ]
+      }
+    }
+  ],
+  "mitigation_classes": [
+    {
+      "key": "segmentation",
+      "label": "Network segmentation / zero-trust architecture",
+      "control_ids": [
+        "CTRL-01"
+      ],
+      "keywords": [
+        "microsegmentation",
+        "micro-segmentation",
+        "segmentation",
+        "zero-trust",
+        "zero trust",
+        "sdp",
+        "software-defined perimeter",
+        "east-west"
+      ],
+      "evidence": "Segmentation policy, VLAN/ACL matrix, and evidence that east-west traffic is denied by default rather than merely monitored.",
+      "controls": {
+        "iso27001": [
+          "A.8.20",
+          "A.8.21",
+          "A.8.22",
+          "A.8.23"
+        ],
+        "nistcsf": [
+          "DE.CM-01",
+          "PR.AA-05",
+          "PR.IR-01",
+          "PR.IR-02"
+        ],
+        "cis": [
+          "4.4",
+          "12.2",
+          "13.4",
+          "13.10"
+        ],
+        "rbi": [
+          "RBI-A1-04",
+          "RBI-A1-05"
+        ],
+        "sebi": [
+          "SEBI-DE-01",
+          "SEBI-PR-03"
+        ]
+      }
+    },
+    {
+      "key": "phishing_resistant_mfa",
+      "label": "Phishing-resistant multi-factor authentication",
+      "control_ids": [
+        "CTRL-02"
+      ],
+      "keywords": [
+        "mfa",
+        "multi-factor",
+        "multifactor",
+        "fido2",
+        "passkey",
+        "hardware token",
+        "webauthn",
+        "2fa",
+        "two-factor"
+      ],
+      "evidence": "Enrolment coverage by privilege tier, and the exception register for accounts still on password-only or SMS OTP.",
+      "controls": {
+        "iso27001": [
+          "A.5.15",
+          "A.5.16",
+          "A.5.17",
+          "A.8.5"
+        ],
+        "nistcsf": [
+          "PR.AA-01",
+          "PR.AA-02",
+          "PR.AA-03"
+        ],
+        "cis": [
+          "5.2",
+          "6.3",
+          "6.4",
+          "6.5"
+        ],
+        "rbi": [
+          "RBI-A1-08",
+          "RBI-A1-09"
+        ],
+        "sebi": [
+          "SEBI-PR-01",
+          "SEBI-PR-02"
+        ]
+      }
+    },
+    {
+      "key": "data_protection",
+      "label": "Database activity monitoring and encryption at rest",
+      "control_ids": [
+        "CTRL-03"
+      ],
+      "keywords": [
+        "encryption",
+        "database activity",
+        "dam",
+        "tokenisation",
+        "tokenization",
+        "data masking",
+        "at rest",
+        "key management",
+        "hsm",
+        "dlp"
+      ],
+      "evidence": "Key-management procedure, cipher inventory, and DAM alert samples proving the monitoring is actually generating reviewable events.",
+      "controls": {
+        "iso27001": [
+          "A.5.12",
+          "A.8.3",
+          "A.8.11",
+          "A.8.12",
+          "A.8.24"
+        ],
+        "nistcsf": [
+          "DE.CM-03",
+          "PR.DS-01",
+          "PR.DS-02",
+          "PR.DS-10"
+        ],
+        "cis": [
+          "3.3",
+          "3.10",
+          "3.11",
+          "3.13",
+          "3.14"
+        ],
+        "rbi": [
+          "RBI-A1-14",
+          "RBI-A1-15",
+          "RBI-A1-16"
+        ],
+        "sebi": [
+          "SEBI-DE-02",
+          "SEBI-PR-05"
+        ]
+      }
+    },
+    {
+      "key": "detection_response",
+      "label": "Managed detection and response / XDR / SOC",
+      "control_ids": [
+        "CTRL-04"
+      ],
+      "keywords": [
+        "xdr",
+        "edr",
+        "mdr",
+        "siem",
+        "soc",
+        "detection and response",
+        "threat hunting",
+        "24x7 monitoring",
+        "security operations"
+      ],
+      "evidence": "Use-case coverage matrix, mean time to detect, and for RBI-regulated entities the C-SOC operating model. SEBI-regulated entities should also cite market-SOC or equivalent SOC onboarding.",
+      "controls": {
+        "iso27001": [
+          "A.5.7",
+          "A.5.24",
+          "A.5.25",
+          "A.5.26",
+          "A.5.27",
+          "A.5.28",
+          "A.8.15",
+          "A.8.16"
+        ],
+        "nistcsf": [
+          "DE.AE-02",
+          "DE.AE-03",
+          "DE.AE-04",
+          "DE.AE-06",
+          "DE.AE-08",
+          "DE.CM-01",
+          "DE.CM-03",
+          "DE.CM-06",
+          "DE.CM-09",
+          "ID.RA-02",
+          "PR.PS-04",
+          "RS.AN-03",
+          "RS.MA-01",
+          "RS.MA-02"
+        ],
+        "cis": [
+          "8.2",
+          "8.5",
+          "8.9",
+          "8.11",
+          "13.1",
+          "13.2",
+          "13.6",
+          "17.1",
+          "17.4"
+        ],
+        "rbi": [
+          "RBI-A1-19",
+          "RBI-A1-20",
+          "RBI-A2-01",
+          "RBI-A2-02"
+        ],
+        "sebi": [
+          "SEBI-DE-01",
+          "SEBI-DE-02",
+          "SEBI-DE-03",
+          "SEBI-RS-01",
+          "SEBI-RS-02"
+        ]
+      }
+    },
+    {
+      "key": "virtual_patching",
+      "label": "WAF / IPS virtual patching",
+      "control_ids": [
+        "CTRL-05"
+      ],
+      "keywords": [
+        "waf",
+        "web application firewall",
+        "virtual patch",
+        "ips",
+        "rasp",
+        "shielding",
+        "api gateway"
+      ],
+      "evidence": "Rule coverage against the open finding list, and blocking-vs-monitoring mode per rule — a WAF in detect-only mode is not a compensating control.",
+      "controls": {
+        "iso27001": [
+          "A.8.8",
+          "A.8.20",
+          "A.8.23",
+          "A.8.26"
+        ],
+        "nistcsf": [
+          "DE.CM-01",
+          "ID.RA-06",
+          "PR.IR-01",
+          "PR.PS-05"
+        ],
+        "cis": [
+          "7.7",
+          "9.2",
+          "13.3",
+          "13.10"
+        ],
+        "rbi": [
+          "RBI-A1-04",
+          "RBI-A1-07",
+          "RBI-A1-13"
+        ],
+        "sebi": [
+          "SEBI-PR-03",
+          "SEBI-PR-04",
+          "SEBI-PR-07"
+        ]
+      }
+    },
+    {
+      "key": "privileged_access",
+      "label": "Privileged access management / credential vaulting",
+      "control_ids": [
+        "CTRL-06"
+      ],
+      "keywords": [
+        "pam",
+        "privileged access",
+        "vault",
+        "just-in-time",
+        "jit access",
+        "session recording",
+        "break-glass",
+        "secrets management"
+      ],
+      "evidence": "Privileged account inventory, vaulting percentage, and the quarterly access recertification record.",
+      "controls": {
+        "iso27001": [
+          "A.5.15",
+          "A.5.18",
+          "A.8.2",
+          "A.8.5",
+          "A.8.16"
+        ],
+        "nistcsf": [
+          "DE.CM-03",
+          "PR.AA-01",
+          "PR.AA-05",
+          "PR.AA-06"
+        ],
+        "cis": [
+          "5.1",
+          "5.4",
+          "6.2",
+          "6.7",
+          "6.8"
+        ],
+        "rbi": [
+          "RBI-A1-08",
+          "RBI-A1-10"
+        ],
+        "sebi": [
+          "SEBI-DE-03",
+          "SEBI-PR-01"
+        ]
+      }
+    },
+    {
+      "key": "backup_recovery",
+      "label": "Immutable, air-gapped backup and recovery",
+      "control_ids": [
+        "CTRL-07"
+      ],
+      "keywords": [
+        "backup",
+        "air-gap",
+        "air gap",
+        "immutable",
+        "restore",
+        "disaster recovery",
+        "replication",
+        "recovery point",
+        "rpo",
+        "rto"
+      ],
+      "evidence": "Last successful restore test with date and scope. Backup existence is not evidence; a tested restore is.",
+      "controls": {
+        "iso27001": [
+          "A.5.29",
+          "A.5.30",
+          "A.8.13",
+          "A.8.14"
+        ],
+        "nistcsf": [
+          "PR.DS-11",
+          "RC.CO-03",
+          "RC.RP-01",
+          "RC.RP-05"
+        ],
+        "cis": [
+          "11.2",
+          "11.3",
+          "11.4",
+          "11.5"
+        ],
+        "rbi": [
+          "RBI-A1-18",
+          "RBI-A1-24",
+          "RBI-A3-02"
+        ],
+        "sebi": [
+          "SEBI-RC-01",
+          "SEBI-RC-02"
+        ]
+      }
+    },
+    {
+      "key": "vuln_management",
+      "label": "Patch and vulnerability management orchestration",
+      "control_ids": [
+        "CTRL-08"
+      ],
+      "keywords": [
+        "patch",
+        "vulnerability management",
+        "remediation",
+        "sla",
+        "scanning",
+        "orchestration",
+        "asset inventory",
+        "configuration baseline"
+      ],
+      "evidence": "Remediation-SLA attainment by severity band. This is the control most directly evidenced by the platform's own output, so the finding ageing report is the artefact to attach.",
+      "controls": {
+        "iso27001": [
+          "A.5.9",
+          "A.8.1",
+          "A.8.8",
+          "A.8.9",
+          "A.8.19",
+          "A.8.31",
+          "A.8.32"
+        ],
+        "nistcsf": [
+          "ID.AM-01",
+          "ID.AM-02",
+          "ID.IM-01",
+          "ID.RA-01",
+          "ID.RA-05",
+          "ID.RA-06",
+          "PR.PS-01",
+          "PR.PS-02",
+          "PR.PS-03"
+        ],
+        "cis": [
+          "1.1",
+          "2.1",
+          "4.1",
+          "7.1",
+          "7.2",
+          "7.3",
+          "7.4",
+          "7.5",
+          "7.6",
+          "7.7"
+        ],
+        "rbi": [
+          "RBI-A1-01",
+          "RBI-A1-02",
+          "RBI-A1-05",
+          "RBI-A1-07"
+        ],
+        "sebi": [
+          "SEBI-ID-01",
+          "SEBI-ID-02",
+          "SEBI-ID-05",
+          "SEBI-PR-04"
+        ]
+      }
+    },
+    {
+      "key": "network_access_control",
+      "label": "Network access control / 802.1X",
+      "control_ids": [
+        "CTRL-09"
+      ],
+      "keywords": [
+        "802.1x",
+        "nac",
+        "network access control",
+        "port security",
+        "device posture",
+        "rogue device",
+        "wireless security",
+        "radius"
+      ],
+      "evidence": "Authenticated-port percentage and the count of unmanaged devices quarantined in the reporting period.",
+      "controls": {
+        "iso27001": [
+          "A.5.9",
+          "A.7.4",
+          "A.8.1",
+          "A.8.20"
+        ],
+        "nistcsf": [
+          "DE.CM-01",
+          "DE.CM-06",
+          "ID.AM-01",
+          "PR.AA-01",
+          "PR.AA-05"
+        ],
+        "cis": [
+          "1.1",
+          "1.2",
+          "12.6",
+          "13.1",
+          "15.1"
+        ],
+        "rbi": [
+          "RBI-A1-01",
+          "RBI-A1-03",
+          "RBI-A1-04"
+        ],
+        "sebi": [
+          "SEBI-ID-01",
+          "SEBI-PR-03"
+        ]
+      }
+    },
+    {
+      "key": "awareness_training",
+      "label": "Security awareness and phishing simulation",
+      "control_ids": [
+        "CTRL-10"
+      ],
+      "keywords": [
+        "awareness",
+        "phishing simulation",
+        "training",
+        "user education",
+        "tabletop",
+        "drill",
+        "human risk"
+      ],
+      "evidence": "Completion rates and, more usefully to a reviewer, the simulated-phishing click and report rates trended over time.",
+      "controls": {
+        "iso27001": [
+          "A.5.10",
+          "A.6.3",
+          "A.6.8",
+          "A.8.23"
+        ],
+        "nistcsf": [
+          "GV.RM-05",
+          "PR.AT-01",
+          "PR.AT-02",
+          "RS.CO-02",
+          "RS.CO-03"
+        ],
+        "cis": [
+          "9.6",
+          "9.7",
+          "14.1",
+          "14.2",
+          "14.6",
+          "17.7"
+        ],
+        "rbi": [
+          "RBI-A1-13",
+          "RBI-A1-21",
+          "RBI-A1-22"
+        ],
+        "sebi": [
+          "SEBI-GV-05",
+          "SEBI-PR-07",
+          "SEBI-RS-03"
+        ]
+      }
+    },
+    {
+      "key": "governance_assurance",
+      "label": "Governance, risk assessment and independent assurance",
+      "control_ids": [],
+      "keywords": [
+        "governance",
+        "risk assessment",
+        "audit",
+        "policy",
+        "board reporting",
+        "third-party risk",
+        "vendor assessment",
+        "vapt",
+        "penetration test",
+        "red team",
+        "cyber insurance",
+        "incident response plan",
+        "crisis management"
+      ],
+      "evidence": "Board-approved policy with review date, latest VAPT report, and the risk register showing accepted residual risk with named owners. Has no CTRL- identifier in the sample scan because it is the layer the platform reports *into*, not a purchasable line item.",
+      "controls": {
+        "iso27001": [
+          "A.5.1",
+          "A.5.2",
+          "A.5.4",
+          "A.5.19",
+          "A.5.21",
+          "A.5.24",
+          "A.5.31",
+          "A.5.35",
+          "A.5.36",
+          "A.8.29"
+        ],
+        "nistcsf": [
+          "GV.OV-01",
+          "GV.OV-03",
+          "GV.RM-01",
+          "GV.RM-02",
+          "GV.RM-03",
+          "GV.RM-06",
+          "GV.SC-04",
+          "GV.SC-07",
+          "ID.IM-02",
+          "ID.RA-04",
+          "ID.RA-07",
+          "ID.RA-08"
+        ],
+        "cis": [
+          "15.4",
+          "16.1",
+          "16.2",
+          "17.3",
+          "18.1",
+          "18.2",
+          "18.3"
+        ],
+        "rbi": [
+          "RBI-A1-17",
+          "RBI-A1-23",
+          "RBI-A1-25",
+          "RBI-A3-01",
+          "RBI-A3-03"
+        ],
+        "sebi": [
+          "SEBI-GV-01",
+          "SEBI-GV-02",
+          "SEBI-GV-03",
+          "SEBI-GV-04",
+          "SEBI-ID-04"
+        ]
+      }
+    }
+  ],
+  "risk_metric_map": [
+    {
+      "key": "expected_annual_loss",
+      "label": "Expected annual loss",
+      "field": "totalExpectedLossINR",
+      "unit": "INR",
+      "statement": "Quantified financial consequence of the current open finding set, used to demonstrate that risk is assessed in business terms and against a stated appetite rather than by severity label alone.",
+      "controls": {
+        "iso27001": [
+          "A.5.31",
+          "A.8.8"
+        ],
+        "nistcsf": [
+          "GV.RM-02",
+          "GV.RM-03",
+          "ID.RA-04",
+          "ID.RA-05"
+        ],
+        "cis": [
+          "7.1",
+          "18.1"
+        ],
+        "rbi": [
+          "RBI-A1-17",
+          "RBI-A3-01"
+        ],
+        "sebi": [
+          "SEBI-GV-01",
+          "SEBI-ID-04"
+        ]
+      }
+    },
+    {
+      "key": "exploitation_probability",
+      "label": "Exploitation probability (model output)",
+      "field": "exploitProbability",
+      "unit": "probability",
+      "statement": "Threat-informed likelihood per finding. Evidences that prioritisation uses current threat intelligence and not just static CVSS severity.",
+      "controls": {
+        "iso27001": [
+          "A.5.7",
+          "A.8.8"
+        ],
+        "nistcsf": [
+          "ID.RA-03",
+          "ID.RA-05",
+          "ID.RA-06"
+        ],
+        "cis": [
+          "7.1",
+          "7.7"
+        ],
+        "rbi": [
+          "RBI-A1-07",
+          "RBI-A1-19"
+        ],
+        "sebi": [
+          "SEBI-DE-01",
+          "SEBI-ID-05"
+        ]
+      }
+    },
+    {
+      "key": "residual_risk",
+      "label": "Residual risk after planned mitigation",
+      "field": "residualRiskScore",
+      "unit": "index_0_100",
+      "statement": "The number a board must formally accept. Reporting it alongside the pre-treatment figure is what turns a scan into a risk-acceptance record.",
+      "controls": {
+        "iso27001": [
+          "A.5.31",
+          "A.5.36",
+          "A.8.8"
+        ],
+        "nistcsf": [
+          "GV.RM-02",
+          "GV.RM-05",
+          "ID.IM-01",
+          "ID.RA-05"
+        ],
+        "cis": [
+          "18.1",
+          "18.3"
+        ],
+        "rbi": [
+          "RBI-A1-17",
+          "RBI-A3-01"
+        ],
+        "sebi": [
+          "SEBI-GV-01",
+          "SEBI-GV-02"
+        ]
+      }
+    },
+    {
+      "key": "control_coverage",
+      "label": "Framework control coverage",
+      "field": "controlCoveragePct",
+      "unit": "percent",
+      "statement": "Proportion of mapped controls with at least one satisfying investment or no contradicting finding. This is the self-assessment percentage regulators ask for, and for SEBI-regulated entities it is the input to the Cyber Capability Index submission.",
+      "controls": {
+        "iso27001": [
+          "A.5.35",
+          "A.5.36"
+        ],
+        "nistcsf": [
+          "GV.OV-01",
+          "GV.OV-03",
+          "ID.IM-01",
+          "ID.IM-02"
+        ],
+        "cis": [
+          "17.3",
+          "18.2",
+          "18.3"
+        ],
+        "rbi": [
+          "RBI-A1-23",
+          "RBI-A3-03"
+        ],
+        "sebi": [
+          "SEBI-GV-02",
+          "SEBI-GV-03"
+        ]
+      }
+    },
+    {
+      "key": "critical_finding_count",
+      "label": "Critical and high finding count",
+      "field": "criticalFindings",
+      "unit": "count",
+      "statement": "Open severe exposures at reporting date, with ageing. Directly evidences whether remediation timelines are being met.",
+      "controls": {
+        "iso27001": [
+          "A.6.8",
+          "A.8.8"
+        ],
+        "nistcsf": [
+          "ID.RA-01",
+          "ID.RA-06",
+          "RS.MA-03"
+        ],
+        "cis": [
+          "7.4",
+          "7.6"
+        ],
+        "rbi": [
+          "RBI-A1-07",
+          "RBI-A1-20"
+        ],
+        "sebi": [
+          "SEBI-ID-05",
+          "SEBI-RS-02"
+        ]
+      }
+    },
+    {
+      "key": "actively_exploited_count",
+      "label": "Findings under active exploitation",
+      "field": "activelyExploitedCount",
+      "unit": "count",
+      "statement": "Count of findings matching a confirmed in-the-wild exploitation catalogue. Usually the single most escalation-worthy line in a board pack.",
+      "controls": {
+        "iso27001": [
+          "A.5.7",
+          "A.8.7",
+          "A.8.8"
+        ],
+        "nistcsf": [
+          "DE.CM-09",
+          "ID.RA-03",
+          "RS.MI-01"
+        ],
+        "cis": [
+          "7.7",
+          "10.1"
+        ],
+        "rbi": [
+          "RBI-A1-12",
+          "RBI-A1-19"
+        ],
+        "sebi": [
+          "SEBI-DE-03",
+          "SEBI-RS-01"
+        ]
+      }
+    },
+    {
+      "key": "roi_of_security_spend",
+      "label": "Return on security investment",
+      "field": "roiPct",
+      "unit": "percent",
+      "statement": "Risk reduction per rupee for the selected portfolio. Evidences that resourcing decisions are risk-based, which is a governance obligation in its own right and not merely a finance question.",
+      "controls": {
+        "iso27001": [
+          "A.5.31"
+        ],
+        "nistcsf": [
+          "GV.OV-03",
+          "GV.RM-03",
+          "GV.RM-06"
+        ],
+        "cis": [
+          "18.1"
+        ],
+        "rbi": [
+          "RBI-A3-01"
+        ],
+        "sebi": [
+          "SEBI-GV-01",
+          "SEBI-GV-03"
+        ]
+      }
+    },
+    {
+      "key": "asset_criticality_weighting",
+      "label": "Business-criticality weighted exposure",
+      "field": "assetCriticalityProfile",
+      "unit": "distribution",
+      "statement": "Shows the asset inventory is classified and that risk is weighted by business impact — the precondition for every other number here being meaningful.",
+      "controls": {
+        "iso27001": [
+          "A.5.9",
+          "A.5.12",
+          "A.8.1"
+        ],
+        "nistcsf": [
+          "ID.AM-01",
+          "ID.AM-05",
+          "ID.AM-08"
+        ],
+        "cis": [
+          "1.1",
+          "3.1",
+          "3.7"
+        ],
+        "rbi": [
+          "RBI-A1-01",
+          "RBI-A1-14"
+        ],
+        "sebi": [
+          "SEBI-ID-01",
+          "SEBI-ID-02"
+        ]
+      }
+    }
+  ]
+}

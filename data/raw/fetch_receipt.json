@@ -1,0 +1,15 @@
+{
+  "fetched_at": "2026-09-06T07:43:27.897534+00:00",
+  "requested": [
+    "nvd"
+  ],
+  "failed": [
+    "nvd"
+  ],
+  "sources": {
+    "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "epss": "https://epss.empiricalsecurity.com/epss_scores-{day}.csv.gz",
+    "nvd": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+    "vcdb": "https://codeload.github.com/vz-risk/VCDB/zip/refs/heads/master"
+  }
+}

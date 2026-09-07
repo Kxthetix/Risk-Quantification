@@ -1,0 +1,42 @@
+{
+  "name": "cyberrisk-optimizer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "data": "node scripts/py.cjs ml/fetch_real_data.py --all",
+    "runbook": "node scripts/py.cjs ml/fetch_real_data.py --runbook",
+    "dataset": "node scripts/py.cjs ml/build_dataset.py",
+    "train": "node scripts/py.cjs ml/train.py",
+    "enrich": "node scripts/py.cjs ml/enrich_scan.py",
+    "check:compliance": "node scripts/check-compliance.cjs",
+    "check:engine": "node scripts/check-engine.cjs",
+    "check:exports": "node scripts/check-exports.cjs",
+    "check:pipeline": "node scripts/check-pipeline.cjs",
+    "check:ml": "node scripts/py.cjs ml/test_gbm.py && node scripts/py.cjs ml/test_train.py && node scripts/py.cjs ml/build_dataset.py --selftest && node scripts/py.cjs ml/enrich_scan.py --selftest && node scripts/py.cjs ml/fetch_real_data.py --selftest",
+    "check": "npm run typecheck && npm run check:compliance && npm run check:engine && npm run check:exports && npm run check:pipeline",
+    "check:all": "npm run check && npm run check:ml"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.475.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.15.1",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.14"
+  }
+}

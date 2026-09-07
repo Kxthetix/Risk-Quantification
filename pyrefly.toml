@@ -1,0 +1,9 @@
+python-interpreter-path = ".venv/Scripts/python.exe"
+search-path = [
+    "ml",
+    "frameworks",
+]
+infer-with-first-use = false
+
+[errors]
+unnecessary-type-conversion = "ignore"

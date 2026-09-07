@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-09-01",
+    "model_version": "v2026.06.15",
+    "rows": 366848,
+    "file": "epss-2026-09-01.csv"
+  },
+  {
+    "date": "2026-08-01",
+    "model_version": "v2026.06.15",
+    "rows": 354592,
+    "file": "epss-2026-08-01.csv"
+  },
+  {
+    "date": "2026-07-01",
+    "model_version": "v2026.06.15",
+    "rows": 344852,
+    "file": "epss-2026-07-01.csv"
+  },
+  {
+    "date": "2026-09-05",
+    "model_version": "v2026.06.15",
+    "rows": 368543,
+    "file": "epss-2026-09-05.csv"
+  }
+]

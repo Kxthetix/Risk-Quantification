@@ -1,0 +1,1185 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 4 /Kids [6 0 R 8 0 R 10 0 R 12 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Title (Indian Institute of Technology / Apex University - cyber risk and framework compliance) /Author (CyberRisk Optimizer) /Subject (Quantified cyber risk mapped to ISO/IEC 27001, NIST CSF, CIS Controls, the RBI Cyber Security Framework and the SEBI CSCRF) /Producer (CyberRisk Optimizer, zero-dependency PDF writer) /CreationDate (D:20260902122925+05'30) >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 12641 >>
+stream
+0.050 0.070 0.110 rg
+BT /F2 17 Tf 1 0 0 1 46.00 776.89 Tm (Cyber Risk and Framework Compliance) Tj ET
+0.820 0.850 0.890 RG
+0.6 w 46 771.45 m 549.28 771.45 l S
+0.420 0.450 0.500 rg
+0.420 0.450 0.500 rg
+BT /F1 9.5 Tf 1 0 0 1 46.00 752.95 Tm (Indian Institute of Technology / Apex University - scan of 2026-08-28 - 18 assets - 18 findings) Tj ET
+0.940 0.960 0.980 rg
+46.00 701.34 503.28 40.00 re f
+0.420 0.450 0.500 rg
+BT /F1 6.6 Tf 1 0 0 1 54.00 727.34 Tm (EXPECTED ANNUAL LOSS) Tj ET
+0.720 0.140 0.240 rg
+BT /F2 11 Tf 1 0 0 1 54.00 711.34 Tm (INR 68,57,300) Tj ET
+0.420 0.450 0.500 rg
+BT /F1 6.6 Tf 1 0 0 1 179.82 727.34 Tm (RISK INDEX \(0-100\)) Tj ET
+0.020 0.440 0.550 rg
+BT /F2 11 Tf 1 0 0 1 179.82 711.34 Tm (62) Tj ET
+0.420 0.450 0.500 rg
+BT /F1 6.6 Tf 1 0 0 1 305.64 727.34 Tm (CRITICAL / KEV FINDINGS) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 11 Tf 1 0 0 1 305.64 711.34 Tm (13 / 12) Tj ET
+0.420 0.450 0.500 rg
+BT /F1 6.6 Tf 1 0 0 1 431.46 727.34 Tm (REQUIREMENTS CITED) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 11 Tf 1 0 0 1 431.46 711.34 Tm (90) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 11.5 Tf 1 0 0 1 46.00 673.84 Tm (Basis of the figures in this report) Tj ET
+0.820 0.850 0.890 RG
+0.6 w 46 670.16 m 549.28 670.16 l S
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 652.16 Tm (Model state) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 9 Tf 1 0 0 1 164.00 652.16 Tm (HARNESS FIXTURE: no trained artefact is loaded in this check.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 637.10 Tm (Data) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 9 Tf 1 0 0 1 164.00 637.10 Tm (The loaded artefact is NOT built from real data. Treat every figure below as a pipeline) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 9 Tf 1 0 0 1 164.00 625.04 Tm (demonstration, not as a measurement of this organisation.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 609.98 Tm (Coverage) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 609.98 Tm (9 of 18 findings were scored by the model. The remainder use the deterministic fallback,) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 597.92 Tm (which yields a score rather than a calibrated probability.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 582.86 Tm (Artefact built) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 582.86 Tm (No model artefact is loaded; all figures are from the deterministic fallback.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 567.80 Tm (Parity check) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 567.80 Tm (Not run - the artefact shipped no parity fixture, so browser-side scoring has not been) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 555.74 Tm (confirmed against the Python training code.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 540.68 Tm (Framework catalogue) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 540.68 Tm (Built 2026-09-01T17:51:59+00:00. Identifier verification is defined on the closing page.) Tj ET
+0.420 0.450 0.500 rg
+0.420 0.450 0.500 rg
+BT /F1 8.2 Tf 1 0 0 1 52.00 522.42 Tm (- Figures below are deterministic placeholders produced by scripts/check-exports.cjs.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 11.5 Tf 1 0 0 1 46.00 499.80 Tm (Coverage of the five frameworks) Tj ET
+0.820 0.850 0.890 RG
+0.6 w 46 496.12 m 549.28 496.12 l S
+0.420 0.450 0.500 rg
+0.420 0.450 0.500 rg
+BT /F1 8.6 Tf 1 0 0 1 46.00 478.52 Tm (Cited controls are those this scan produced evidence about. The rest are not assessed; this report makes no claim that they are) Tj ET
+0.420 0.450 0.500 rg
+BT /F1 8.6 Tf 1 0 0 1 46.00 466.66 Tm (implemented.) Tj ET
+0.050 0.070 0.110 rg
+46.00 441.89 503.28 17.50 re f
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 50.00 447.39 Tm (Framework) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 132.06 447.39 Tm (Authority) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 278.61 447.39 Tm (Cited) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 320.55 447.39 Tm (In scope) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 376.62 447.39 Tm (Planned) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 436.79 447.39 Tm (Open) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 465.75 447.39 Tm (Weakest ID status) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 429.69 Tm (ISO/IEC) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 419.20 Tm (27001:2022) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 132.06 429.69 Tm (International Organization for) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 132.06 419.20 Tm (Standardization) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 274.03 429.69 Tm (22 / 54) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 330.57 429.69 Tm (40.7%) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 399.40 429.69 Tm (17) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 453.19 429.69 Tm (5) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 465.75 429.69 Tm (verified) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 413.90 m 549.28 413.90 l S
+0.940 0.960 0.980 rg
+46.00 387.91 503.28 25.99 re f
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 403.70 Tm (NIST CSF 2.0) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 132.06 403.70 Tm (National Institute of) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 132.06 393.20 Tm (Standards and Technology) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 274.03 403.70 Tm (18 / 64) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 330.57 403.70 Tm (28.1%) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 399.40 403.70 Tm (15) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 453.19 403.70 Tm (3) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 465.75 403.70 Tm (verified) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 387.91 m 549.28 387.91 l S
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 377.71 Tm (CIS Controls v8.1) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 132.06 377.71 Tm (Center for Internet Security) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 274.03 377.71 Tm (29 / 81) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 330.57 377.71 Tm (35.8%) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 399.40 377.71 Tm (17) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 448.63 377.71 Tm (12) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 465.75 377.71 Tm (verified) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 372.41 m 549.28 372.41 l S
+0.940 0.960 0.980 rg
+46.00 346.42 503.28 25.99 re f
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 362.21 Tm (RBI Cyber Security) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 351.72 Tm (Framework) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 132.06 362.21 Tm (Reserve Bank of India) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 274.03 362.21 Tm (11 / 30) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 330.57 362.21 Tm (36.7%) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 403.96 362.21 Tm (8) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 453.19 362.21 Tm (3) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 465.75 362.21 Tm (inferred) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 346.42 m 549.28 346.42 l S
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 336.22 Tm (SEBI CSCRF) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 132.06 336.22 Tm (Securities and Exchange) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 132.06 325.72 Tm (Board of India) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 274.03 336.22 Tm (10 / 25) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 337.41 336.22 Tm (40%) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 403.96 336.22 Tm (8) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 453.19 336.22 Tm (2) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 465.75 336.22 Tm (assigned) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 320.43 m 549.28 320.43 l S
+0.050 0.070 0.110 rg
+BT /F2 11.5 Tf 1 0 0 1 46.00 294.93 Tm (Where the exposure sits) Tj ET
+0.820 0.850 0.890 RG
+0.6 w 46 291.25 m 549.28 291.25 l S
+0.420 0.450 0.500 rg
+0.420 0.450 0.500 rg
+BT /F1 8.6 Tf 1 0 0 1 46.00 273.65 Tm (The requirements with the most expected annual loss behind them. Attributed exposure is not additive down this column: one) Tj ET
+0.420 0.450 0.500 rg
+BT /F1 8.6 Tf 1 0 0 1 46.00 261.78 Tm (finding is evidence against several controls, so the same rupee appears on every row it implicates. The portfolio total is on the first) Tj ET
+0.420 0.450 0.500 rg
+BT /F1 8.6 Tf 1 0 0 1 46.00 249.91 Tm (page.) Tj ET
+0.050 0.070 0.110 rg
+46.00 225.15 503.28 17.50 re f
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 50.00 230.65 Tm (Framework) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 115.43 230.65 Tm (Control) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 170.79 230.65 Tm (Requirement) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 345.03 230.65 Tm (Findings) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 401.87 230.65 Tm (Attributed EAL) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 467.72 230.65 Tm (Remediation) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 212.95 Tm (ISO/IEC) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 202.45 Tm (27001:2022) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 212.95 Tm (A.8.8) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 212.95 Tm (Management of technical vulnerabilities) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 370.08 212.95 Tm (18) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 212.95 Tm (INR 68,57,300) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 212.95 Tm (CTRL-05, CTRL-08) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 197.16 m 549.28 197.16 l S
+0.940 0.960 0.980 rg
+46.00 171.16 503.28 25.99 re f
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 186.96 Tm (NIST CSF 2.0) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 186.96 Tm (ID.RA-01) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 186.96 Tm (Vulnerabilities in assets are identified,) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 176.46 Tm (validated and recorded) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 370.08 186.96 Tm (18) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 186.96 Tm (INR 68,57,300) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 186.96 Tm (CTRL-08) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 171.16 m 549.28 171.16 l S
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 160.96 Tm (NIST CSF 2.0) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 160.96 Tm (ID.RA-05) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 160.96 Tm (Threats, vulnerabilities, likelihoods and) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 150.47 Tm (impacts are used to understand inherent risk) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 139.97 Tm (and inform risk response prioritization) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 370.08 160.96 Tm (18) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 160.96 Tm (INR 68,57,300) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 160.96 Tm (CTRL-08) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 134.68 m 549.28 134.68 l S
+0.940 0.960 0.980 rg
+46.00 108.68 503.28 25.99 re f
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 124.48 Tm (CIS Controls) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 113.98 Tm (v8.1) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 124.48 Tm (7.1) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 124.48 Tm (Establish and maintain a vulnerability) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 113.98 Tm (management process) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 370.08 124.48 Tm (18) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 124.48 Tm (INR 68,57,300) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 124.48 Tm (CTRL-08) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 108.68 m 549.28 108.68 l S
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 98.48 Tm (CIS Controls) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 87.99 Tm (v8.1) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 98.48 Tm (7.5) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 98.48 Tm (Perform automated vulnerability scans of) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 87.99 Tm (internal enterprise assets) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 370.08 98.48 Tm (18) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 98.48 Tm (INR 68,57,300) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 98.48 Tm (CTRL-08) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 82.69 m 549.28 82.69 l S
+0.82 0.85 0.89 RG
+0.5 w 46 66.00 m 549.28 66.00 l S
+0.42 0.45 0.5 rg
+BT /F1 7.2 Tf 1 0 0 1 46 55.00 Tm (Indian Institute of Technology / Apex University - scan 2026-08-28 - not a compliance certification) Tj ET
+BT /F1 7.2 Tf 1 0 0 1 512.45 55.00 Tm (Page 1 of 4) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 16056 >>
+stream
+0.050 0.070 0.110 rg
+46.00 778.39 503.28 17.50 re f
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 50.00 783.89 Tm (Framework) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 115.43 783.89 Tm (Control) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 170.79 783.89 Tm (Requirement) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 345.03 783.89 Tm (Findings) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 401.87 783.89 Tm (Attributed EAL) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 467.72 783.89 Tm (Remediation) Tj ET
+0.940 0.960 0.980 rg
+46.00 750.40 503.28 25.99 re f
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 766.19 Tm (CIS Controls) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 755.70 Tm (v8.1) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 766.19 Tm (7.7) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 766.19 Tm (Remediate detected vulnerabilities) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 370.08 766.19 Tm (18) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 766.19 Tm (INR 68,57,300) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 766.19 Tm (CTRL-05, CTRL-08) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 750.40 m 549.28 750.40 l S
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 740.20 Tm (RBI Cyber) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 729.71 Tm (Security) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 719.21 Tm (Framework) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 740.20 Tm (RBI-A1-07) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 729.71 Tm (\(inferred\)) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 740.20 Tm (Patch / vulnerability and change) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 729.71 Tm (management) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 370.08 740.20 Tm (18) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 740.20 Tm (INR 68,57,300) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 740.20 Tm (CTRL-05, CTRL-08) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 713.91 m 549.28 713.91 l S
+0.940 0.960 0.980 rg
+46.00 687.92 503.28 25.99 re f
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 703.71 Tm (SEBI CSCRF) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 703.71 Tm (SEBI-ID-05) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 693.22 Tm (\(assigned\)) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 703.71 Tm (Vulnerability assessment and penetration) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 693.22 Tm (testing \(VAPT\)) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 370.08 703.71 Tm (18) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 703.71 Tm (INR 68,57,300) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 703.71 Tm (CTRL-08) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 687.92 m 549.28 687.92 l S
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 677.72 Tm (SEBI CSCRF) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 677.72 Tm (SEBI-PR-04) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 667.23 Tm (\(assigned\)) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 677.72 Tm (Patch and vulnerability remediation) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 667.23 Tm (management) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 370.08 677.72 Tm (18) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 677.72 Tm (INR 68,57,300) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 677.72 Tm (CTRL-05, CTRL-08) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 661.93 m 549.28 661.93 l S
+0.940 0.960 0.980 rg
+46.00 635.94 503.28 25.99 re f
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 651.73 Tm (SEBI CSCRF) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 651.73 Tm (SEBI-DE-03) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 641.23 Tm (\(assigned\)) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 651.73 Tm (Continuous threat detection and alerting) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 374.64 651.73 Tm (9) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 651.73 Tm (INR 48,94,200) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 651.73 Tm (CTRL-04, CTRL-06) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 635.94 m 549.28 635.94 l S
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 625.74 Tm (ISO/IEC) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 615.24 Tm (27001:2022) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 625.74 Tm (A.8.26) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 625.74 Tm (Application security requirements) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 374.64 625.74 Tm (9) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 625.74 Tm (INR 46,46,300) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 625.74 Tm (CTRL-05) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 609.95 m 549.28 609.95 l S
+0.940 0.960 0.980 rg
+46.00 583.95 503.28 25.99 re f
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 599.75 Tm (ISO/IEC) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 589.25 Tm (27001:2022) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 599.75 Tm (A.8.28) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 599.75 Tm (Secure coding) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 374.64 599.75 Tm (9) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 599.75 Tm (INR 46,46,300) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 599.75 Tm (none mapped) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 583.95 m 549.28 583.95 l S
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 573.75 Tm (NIST CSF 2.0) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 573.75 Tm (PR.PS-06) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 573.75 Tm (Secure software development practices are) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 563.26 Tm (integrated, and their performance is) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 552.76 Tm (monitored throughout the software) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 542.27 Tm (development life cycle) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 374.64 573.75 Tm (9) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 573.75 Tm (INR 46,46,300) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 573.75 Tm (none mapped) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 536.97 m 549.28 536.97 l S
+0.940 0.960 0.980 rg
+46.00 510.98 503.28 25.99 re f
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 526.77 Tm (CIS Controls) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 516.27 Tm (v8.1) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 115.43 526.77 Tm (16.12) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 170.79 526.77 Tm (Implement code-level security checks) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 374.64 526.77 Tm (9) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 406.85 526.77 Tm (INR 46,46,300) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 467.72 526.77 Tm (none mapped) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 510.98 m 549.28 510.98 l S
+0.050 0.070 0.110 rg
+BT /F2 11.5 Tf 1 0 0 1 46.00 485.48 Tm (Largest single exposures) Tj ET
+0.820 0.850 0.890 RG
+0.6 w 46 481.80 m 549.28 481.80 l S
+0.050 0.070 0.110 rg
+46.00 455.30 503.28 17.50 re f
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 50.00 460.80 Tm (CVE) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 128.29 460.80 Tm (Asset) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 251.31 460.80 Tm (Criticality) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 327.23 460.80 Tm (CVSS) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 357.56 460.80 Tm (KEV) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 391.11 460.80 Tm (Figures from) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 461.43 460.80 Tm (Expected annual loss) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 443.10 Tm (CVE-2023-38606) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 443.10 Tm (Student Information & Records) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 432.61 Tm (DB) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 251.31 443.10 Tm (Critical) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 338.16 443.10 Tm (9.8) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 357.56 443.10 Tm (yes) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 391.11 443.10 Tm (model) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 492.41 443.10 Tm (INR 11,12,500) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 427.31 m 549.28 427.31 l S
+0.940 0.960 0.980 rg
+46.00 401.32 503.28 25.99 re f
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 417.11 Tm (CVE-2024-3400) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 417.11 Tm (Campus Core Gateway &) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 406.61 Tm (Perimeter Firewall) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 251.31 417.11 Tm (Critical) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 333.60 417.11 Tm (10.0) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 357.56 417.11 Tm (yes) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 391.11 417.11 Tm (model) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 492.41 417.11 Tm (INR 10,34,000) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 401.32 m 549.28 401.32 l S
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 391.12 Tm (CVE-2024-21413) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 391.12 Tm (Central Active Directory & SSO) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 380.62 Tm (IdP) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 251.31 391.12 Tm (Critical) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 338.16 391.12 Tm (9.8) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 357.56 391.12 Tm (yes) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 391.11 391.12 Tm (heuristic) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 496.97 391.12 Tm (INR 7,98,000) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 375.33 m 549.28 375.33 l S
+0.940 0.960 0.980 rg
+46.00 349.33 503.28 25.99 re f
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 365.13 Tm (CVE-2023-46604) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 365.13 Tm (Online Examination &) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 354.63 Tm (Evaluation Portal) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 251.31 365.13 Tm (Critical) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 338.16 365.13 Tm (9.8) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 357.56 365.13 Tm (yes) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 391.11 365.13 Tm (model) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 496.97 365.13 Tm (INR 7,28,000) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 349.33 m 549.28 349.33 l S
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 339.13 Tm (CVE-2023-34362) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 339.13 Tm (University Payment & Fee) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 328.64 Tm (Gateway) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 251.31 339.13 Tm (Critical) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 338.16 339.13 Tm (9.8) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 357.56 339.13 Tm (yes) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 391.11 339.13 Tm (heuristic) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 496.97 339.13 Tm (INR 5,32,000) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 323.34 m 549.28 323.34 l S
+0.940 0.960 0.980 rg
+46.00 297.35 503.28 25.99 re f
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 313.14 Tm (CVE-2023-3519) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 313.14 Tm (Virtual Desktop Infrastructure) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 302.65 Tm (\(VDI Farm\)) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 251.31 313.14 Tm (High) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 338.16 313.14 Tm (9.8) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 357.56 313.14 Tm (yes) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 391.11 313.14 Tm (model) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 496.97 313.14 Tm (INR 3,61,200) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 297.35 m 549.28 297.35 l S
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 287.15 Tm (CVE-2024-1086) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 287.15 Tm (Faculty Research) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 276.65 Tm (Supercomputing Cluster \(HPC\)) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 251.31 287.15 Tm (High) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 338.16 287.15 Tm (7.8) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 357.56 287.15 Tm (yes) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 391.11 287.15 Tm (model) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 496.97 287.15 Tm (INR 3,48,000) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 271.36 m 549.28 271.36 l S
+0.940 0.960 0.980 rg
+46.00 245.37 503.28 25.99 re f
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 261.16 Tm (CVE-2022-39952) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 261.16 Tm (Enterprise ERP & Faculty) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 250.66 Tm (Payroll System) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 251.31 261.16 Tm (High) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 338.16 261.16 Tm (9.8) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 357.56 261.16 Tm (yes) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 391.11 261.16 Tm (heuristic) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 496.97 261.16 Tm (INR 3,40,000) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 245.37 m 549.28 245.37 l S
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 235.17 Tm (CVE-2023-7028) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 235.17 Tm (Internal Code Repository) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 224.67 Tm (\(GitLab CE\)) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 251.31 235.17 Tm (High) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 333.60 235.17 Tm (10.0) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 357.56 235.17 Tm (yes) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 391.11 235.17 Tm (heuristic) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 8.2 Tf 1 0 0 1 496.97 235.17 Tm (INR 3,00,200) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 219.37 m 549.28 219.37 l S
+0.940 0.960 0.980 rg
+46.00 193.38 503.28 25.99 re f
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 209.17 Tm (CVE-2023-50164) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 209.17 Tm (Learning Management System) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 128.29 198.68 Tm (\(LMS - Moodle\)) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 251.31 209.17 Tm (High) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 338.16 209.17 Tm (9.8) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 357.56 209.17 Tm (no) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 391.11 209.17 Tm (heuristic) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 496.97 209.17 Tm (INR 2,92,500) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 193.38 m 549.28 193.38 l S
+0.050 0.070 0.110 rg
+BT /F2 11.5 Tf 1 0 0 1 46.00 167.88 Tm (Risk metrics against reporting requirements) Tj ET
+0.820 0.850 0.890 RG
+0.6 w 46 164.20 m 549.28 164.20 l S
+0.420 0.450 0.500 rg
+0.420 0.450 0.500 rg
+BT /F1 8.6 Tf 1 0 0 1 46.00 146.60 Tm (4 of 8 metrics are computable from this scan. A metric shown as unavailable has not been measured; it is not a zero, and must not) Tj ET
+0.420 0.450 0.500 rg
+BT /F1 8.6 Tf 1 0 0 1 46.00 134.73 Tm (be reported as one.) Tj ET
+0.050 0.070 0.110 rg
+46.00 109.97 503.28 17.50 re f
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 50.00 115.47 Tm (Metric) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 150.66 115.47 Tm (This scan) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 303.92 115.47 Tm (Requirement) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 362.03 115.47 Tm (Governance statement) Tj ET
+0.82 0.85 0.89 RG
+0.5 w 46 66.00 m 549.28 66.00 l S
+0.42 0.45 0.5 rg
+BT /F1 7.2 Tf 1 0 0 1 46 55.00 Tm (Indian Institute of Technology / Apex University - scan 2026-08-28 - not a compliance certification) Tj ET
+BT /F1 7.2 Tf 1 0 0 1 512.45 55.00 Tm (Page 2 of 4) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 12705 >>
+stream
+0.050 0.070 0.110 rg
+46.00 778.39 503.28 17.50 re f
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 50.00 783.89 Tm (Metric) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 150.66 783.89 Tm (This scan) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 303.92 783.89 Tm (Requirement) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 362.03 783.89 Tm (Governance statement) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 766.19 Tm (Expected annual loss) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 766.19 Tm (INR68,57,300 per year) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 344.92 766.19 Tm (12) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 766.19 Tm (Quantified financial consequence of the current) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 755.70 Tm (open finding set, used to demonstrate that risk is) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 745.20 Tm (assessed in business terms and against a stated) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 734.71 Tm (appetite rather than by severity label alone.) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 729.41 m 549.28 729.41 l S
+0.940 0.960 0.980 rg
+46.00 692.92 503.28 36.49 re f
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 719.21 Tm (Exploitation probability) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 708.71 Tm (\(model output\)) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 719.21 Tm (not available - harness: no model is) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 708.71 Tm (loaded in this check) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 344.92 719.21 Tm (11) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 719.21 Tm (Threat-informed likelihood per finding. Evidences) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 708.71 Tm (that prioritisation uses current threat intelligence) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 698.22 Tm (and not just static CVSS severity.) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 692.92 m 549.28 692.92 l S
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 682.72 Tm (Residual risk after) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 672.23 Tm (planned mitigation) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 682.72 Tm (not available - No mitigation portfolio) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 672.23 Tm (has been selected yet, so residual risk) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 661.73 Tm (is undefined.) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 344.92 682.72 Tm (13) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 682.72 Tm (The number a board must formally accept.) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 672.23 Tm (Reporting it alongside the pre-treatment figure is) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 661.73 Tm (what turns a scan into a risk-acceptance record.) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 656.43 m 549.28 656.43 l S
+0.940 0.960 0.980 rg
+46.00 598.95 503.28 57.48 re f
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 646.23 Tm (Framework control) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 635.74 Tm (coverage) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 646.23 Tm (72.2% of 90 implicated controls have a) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 635.74 Tm (mapped remediation) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 344.92 646.23 Tm (13) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 646.23 Tm (Proportion of mapped controls with at least one) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 635.74 Tm (satisfying investment or no contradicting finding.) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 625.24 Tm (This is the self-assessment percentage regulators) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 614.75 Tm (ask for, and for SEBI-regulated entities it is the) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 604.25 Tm (input to the Cyber Capability Index submission.) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 598.95 m 549.28 598.95 l S
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 588.75 Tm (Critical and high finding) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 578.26 Tm (count) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 588.75 Tm (13) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 344.92 588.75 Tm (11) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 588.75 Tm (Open severe exposures at reporting date, with) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 578.26 Tm (ageing. Directly evidences whether remediation) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 567.76 Tm (timelines are being met.) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 562.47 m 549.28 562.47 l S
+0.940 0.960 0.980 rg
+46.00 525.98 503.28 36.49 re f
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 552.27 Tm (Findings under active) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 541.77 Tm (exploitation) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 552.27 Tm (12) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 344.92 552.27 Tm (12) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 552.27 Tm (Count of findings matching a confirmed in-the-wild) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 541.77 Tm (exploitation catalogue. Usually the single most) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 531.27 Tm (escalation-worthy line in a board pack.) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 525.98 m 549.28 525.98 l S
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 515.78 Tm (Return on security) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 505.28 Tm (investment) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 515.78 Tm (not available - ROI requires a selected) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 505.28 Tm (investment portfolio; none has been) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 494.79 Tm (optimised yet.) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 349.47 515.78 Tm (8) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 515.78 Tm (Risk reduction per rupee for the selected portfolio.) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 505.28 Tm (Evidences that resourcing decisions are) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 494.79 Tm (risk-based, which is a governance obligation in its) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 484.29 Tm (own right and not merely a finance question.) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 478.99 m 549.28 478.99 l S
+0.940 0.960 0.980 rg
+46.00 432.01 503.28 46.98 re f
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 468.79 Tm (Business-criticality) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 458.30 Tm (weighted exposure) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 468.79 Tm (not available - No assets carry a) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 150.66 458.30 Tm (business-criticality label in this scan.) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 344.92 468.79 Tm (13) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 468.79 Tm (Shows the asset inventory is classified and that) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 458.30 Tm (risk is weighted by business impact - the) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 447.80 Tm (precondition for every other number here being) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 8.2 Tf 1 0 0 1 362.03 437.31 Tm (meaningful.) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 432.01 m 549.28 432.01 l S
+0.050 0.070 0.110 rg
+BT /F2 11.5 Tf 1 0 0 1 46.00 406.51 Tm (Recommended portfolio at the stated budget) Tj ET
+0.820 0.850 0.890 RG
+0.6 w 46 402.83 m 549.28 402.83 l S
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 384.83 Tm (Budget) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 384.83 Tm (INR 50,00,000, of which INR 55,00,000 is allocated \(74%\).) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 369.77 Tm (Risk index) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 369.77 Tm (62 today, 48 after this portfolio.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 354.71 Tm (Exposure) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 9 Tf 1 0 0 1 164.00 354.71 Tm (INR 68,57,300 per year today, INR 42,51,526 after. Avoided: INR 26,05,774 per year.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 339.65 Tm (Return on security spend) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 339.65 Tm (210% average, computed as avoided annual loss over cost.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 324.59 Tm (Selection rule) Tj ET
+0.420 0.450 0.500 rg
+BT /F1 9 Tf 1 0 0 1 164.00 324.59 Tm (Greedy by risk reduction per rupee, then compounded with diminishing returns. This is a) Tj ET
+0.420 0.450 0.500 rg
+BT /F1 9 Tf 1 0 0 1 164.00 312.53 Tm (ranking heuristic, not a proof of optimality.) Tj ET
+0.050 0.070 0.110 rg
+46.00 282.97 503.28 17.50 re f
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 50.00 288.47 Tm (Control) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 105.36 288.47 Tm (Investment) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 300.58 288.47 Tm (Cost) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 329.04 288.47 Tm (Reduction) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.2 Tf 1 0 0 1 377.13 288.47 Tm (Requirements it would satisfy) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 270.77 Tm (CTRL-01) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 105.36 270.77 Tm (Deploy Zero-Trust Microsegmentation) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 265.93 270.77 Tm (INR 18,00,000) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 352.72 270.77 Tm (32%) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 377.13 270.77 Tm (A.8.20, A.8.21, DE.CM-01, PR.AA-05, 4.4,) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 377.13 260.28 Tm (12.2, RBI-A1-04, RBI-A1-05, SEBI-DE-01,) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 377.13 249.78 Tm (SEBI-PR-03) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 244.49 m 549.28 244.49 l S
+0.940 0.960 0.980 rg
+46.00 208.00 503.28 36.49 re f
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 234.29 Tm (CTRL-02) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 105.36 234.29 Tm (Phishing-Resistant FIDO2/Hardware) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 105.36 223.79 Tm (MFA) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 265.93 234.29 Tm (INR 12,00,000) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 352.72 234.29 Tm (28%) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 377.13 234.29 Tm (A.5.15, A.5.16, PR.AA-01, PR.AA-02, 5.2,) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 377.13 223.79 Tm (6.3, RBI-A1-08, RBI-A1-09, SEBI-PR-01,) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 377.13 213.29 Tm (SEBI-PR-02) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 208.00 m 549.28 208.00 l S
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 197.80 Tm (CTRL-03) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 105.36 197.80 Tm (Database Activity Monitoring \(DAM\) &) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 105.36 187.30 Tm (Encryption) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 265.93 197.80 Tm (INR 15,00,000) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 352.72 197.80 Tm (25%) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 377.13 197.80 Tm (A.5.12, A.8.3, DE.CM-03, PR.DS-01, 3.3,) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 377.13 187.30 Tm (3.10, RBI-A1-14, RBI-A1-15, SEBI-DE-02,) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 377.13 176.81 Tm (SEBI-PR-05) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 171.51 m 549.28 171.51 l S
+0.940 0.960 0.980 rg
+46.00 135.02 503.28 36.49 re f
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 50.00 161.31 Tm (CTRL-04) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 105.36 161.31 Tm (AI-Driven Managed XDR Endpoint) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 105.36 150.81 Tm (Detection) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 265.93 161.31 Tm (INR 10,00,000) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 352.72 161.31 Tm (22%) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 377.13 161.31 Tm (A.5.7, A.5.24, DE.AE-02, DE.AE-03, 8.2, 8.5,) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 377.13 150.81 Tm (RBI-A1-19, RBI-A1-20, SEBI-DE-01,) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 8.2 Tf 1 0 0 1 377.13 140.32 Tm (SEBI-DE-02) Tj ET
+0.820 0.850 0.890 RG
+0.4 w 46 135.02 m 549.28 135.02 l S
+0.82 0.85 0.89 RG
+0.5 w 46 66.00 m 549.28 66.00 l S
+0.42 0.45 0.5 rg
+BT /F1 7.2 Tf 1 0 0 1 46 55.00 Tm (Indian Institute of Technology / Apex University - scan 2026-08-28 - not a compliance certification) Tj ET
+BT /F1 7.2 Tf 1 0 0 1 512.45 55.00 Tm (Page 3 of 4) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 6766 >>
+stream
+0.050 0.070 0.110 rg
+BT /F2 17 Tf 1 0 0 1 46.00 776.89 Tm (How to read this report) Tj ET
+0.820 0.850 0.890 RG
+0.6 w 46 771.45 m 549.28 771.45 l S
+0.050 0.070 0.110 rg
+BT /F2 10 Tf 1 0 0 1 46.00 738.45 Tm (Identifier verification) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 726.25 Tm (verified \(69 cited\)) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 9 Tf 1 0 0 1 164.00 726.25 Tm (Identifier and title checked against the published standard. Citable as a reference to that) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 9 Tf 1 0 0 1 164.00 714.19 Tm (standard.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 699.13 Tm (inferred \(11 cited\)) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 9 Tf 1 0 0 1 164.00 699.13 Tm (Requirement substance follows the primary document, but the official clause numbering could) Tj ET
+0.680 0.420 0.030 rg
+BT /F1 9 Tf 1 0 0 1 164.00 687.07 Tm (not be confirmed. NOT a citation.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 672.01 Tm (assigned \(10 cited\)) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 9 Tf 1 0 0 1 164.00 672.01 Tm (Identifier created by this platform, with the mapping basis recorded on each row. NOT a) Tj ET
+0.720 0.140 0.240 rg
+BT /F1 9 Tf 1 0 0 1 164.00 659.95 Tm (citation.) Tj ET
+0.420 0.450 0.500 rg
+0.420 0.450 0.500 rg
+BT /F1 8.4 Tf 1 0 0 1 46.00 641.49 Tm (verification=verified means the identifier and title were checked against the published standard. inferred means the requirement) Tj ET
+0.420 0.450 0.500 rg
+BT /F1 8.4 Tf 1 0 0 1 46.00 629.90 Tm (substance is correct but the official clause numbering could not be confirmed from the primary document. assigned means this project) Tj ET
+0.420 0.450 0.500 rg
+BT /F1 8.4 Tf 1 0 0 1 46.00 618.31 Tm (created the identifier and records the basis for the mapping. Reports must surface this status; an inferred or assigned identifier is not a) Tj ET
+0.420 0.450 0.500 rg
+BT /F1 8.4 Tf 1 0 0 1 46.00 606.71 Tm (citation.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 10 Tf 1 0 0 1 46.00 585.52 Tm (Attributed exposure is not additive) Tj ET
+0.140 0.160 0.200 rg
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 46.00 573.32 Tm (Attributed EAL is not additive. One finding implicates several controls, so the same rupee of expected annual loss appears on) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 46.00 560.90 Tm (every row it is evidence for. Use the portfolio total on the Summary sheet, never a column sum.) Tj ET
+0.140 0.160 0.200 rg
+0.140 0.160 0.200 rg
+BT /F2 9 Tf 1 0 0 1 46.00 548.48 Tm (The portfolio total for this scan is INR 68,57,300 per year. Any larger figure obtained by summing a control column is) Tj ET
+0.140 0.160 0.200 rg
+BT /F2 9 Tf 1 0 0 1 46.00 536.06 Tm (double-counting.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 10 Tf 1 0 0 1 46.00 514.64 Tm (What silence means) Tj ET
+0.140 0.160 0.200 rg
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 46.00 502.44 Tm (A control this report does not cite is one the scan produced no evidence about. That is not a statement that the control is) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 46.00 490.02 Tm (implemented, and it cannot be used as one. Framework coverage figures describe how much of each framework this scan can) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 46.00 477.60 Tm (speak to, not a compliance score.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 10 Tf 1 0 0 1 46.00 456.18 Tm (Known gaps in this run) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 443.98 Tm (Unclassified findings) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 9 Tf 1 0 0 1 164.00 443.98 Tm (None. Every finding resolved to a vulnerability class and implicates at least one control.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 428.92 Tm (Unmapped investments) Tj ET
+0.030 0.440 0.320 rg
+BT /F1 9 Tf 1 0 0 1 164.00 428.92 Tm (None. Every candidate investment maps to at least one framework requirement.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 10 Tf 1 0 0 1 46.00 404.86 Tm (Sources consulted) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 392.66 Tm (ISO/IEC 27001:2022) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 392.66 Tm (International Organization for Standardization. ISO/IEC 27001:2022, Annex A. Control) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 380.60 Tm (identifiers and titles as published by ISO/IEC.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 365.54 Tm (NIST CSF 2.0) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 365.54 Tm (National Institute of Standards and Technology. NIST Cybersecurity Framework 2.0 \(NIST) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 353.48 Tm (CSWP 29, February 2024\). Subcategory identifiers as published by NIST.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 338.42 Tm (CIS Controls v8.1) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 338.42 Tm (Center for Internet Security. CIS Critical Security Controls v8.1 \(Center for Internet Security\).) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 326.36 Tm (Safeguard numbering as published by CIS.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 311.30 Tm (RBI Cyber Security) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 299.24 Tm (Framework) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 311.30 Tm (Reserve Bank of India, 'Cyber Security Framework in Banks', circular) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 299.24 Tm (DBS.CO/CSITE/BC.11/33.01.001/2015-16 dated 2 June 2016 \(Annex 1 baseline) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 287.18 Tm (requirements, Annex 2 C-SOC, Annex 3 CCMP\). Internal RBI-A<n>-<nn> identifiers are this) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 275.12 Tm (project's numbering; requirement substance follows the circular.) Tj ET
+0.050 0.070 0.110 rg
+BT /F2 9 Tf 1 0 0 1 46.00 260.06 Tm (SEBI CSCRF) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 260.06 Tm (Securities and Exchange Board of India. SEBI, 'Cybersecurity and Cyber Resilience) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 248.00 Tm (Framework \(CSCRF\) for SEBI Regulated Entities', circular) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 235.94 Tm (SEBI/HO/ITD-1/ITD_CSC_EXT/P/CIR/2024/113 dated 20 August 2024, with the June 2025) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 223.88 Tm (FAQ and the 28 August 2025 technical clarifications. Internal SEBI-<FN>-<nn> identifiers are) Tj ET
+0.140 0.160 0.200 rg
+BT /F1 9 Tf 1 0 0 1 164.00 211.82 Tm (this project's numbering, grouped by the CSCRF's NIST CSF 2.0 anchoring.) Tj ET
+0.82 0.85 0.89 RG
+0.5 w 46 66.00 m 549.28 66.00 l S
+0.42 0.45 0.5 rg
+BT /F1 7.2 Tf 1 0 0 1 46 55.00 Tm (Indian Institute of Technology / Apex University - scan 2026-08-28 - not a compliance certification) Tj ET
+BT /F1 7.2 Tf 1 0 0 1 512.45 55.00 Tm (Page 4 of 4) Tj ET
+endstream
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000141 00000 n 
+0000000238 00000 n 
+0000000340 00000 n 
+0000000720 00000 n 
+0000000862 00000 n 
+0000013556 00000 n 
+0000013698 00000 n 
+0000029807 00000 n 
+0000029951 00000 n 
+0000042710 00000 n 
+0000042854 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R /Info 5 0 R >>
+startxref
+49673
+%%EOF

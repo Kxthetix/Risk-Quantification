@@ -1,0 +1,345 @@
+{
+  "generated_at": "2026-09-06T08:07:19+00:00",
+  "data_is_real": true,
+  "provenance": {
+    "dataset_card_generated_at": "2026-09-06T08:05:28+00:00",
+    "sources": {
+      "fetched_at": "2026-09-06T07:43:27.897534+00:00",
+      "requested": [
+        "nvd"
+      ],
+      "failed": [
+        "nvd"
+      ],
+      "sources": {
+        "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+        "epss": "https://epss.empiricalsecurity.com/epss_scores-{day}.csv.gz",
+        "nvd": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+        "vcdb": "https://codeload.github.com/vz-risk/VCDB/zip/refs/heads/master"
+      }
+    },
+    "exploitation_question": "will this currently-unexploited CVE enter the CISA KEV catalogue within 365 days of the anchor date",
+    "severity_question": "log10 of the recorded USD loss for an incident with this VERIS coding",
+    "train_anchor": "2024-09-04",
+    "test_anchor": "2025-09-04"
+  },
+  "exploitation": {
+    "n_train": 26546,
+    "n_test": 67694,
+    "positives_train": 27,
+    "positives_test": 36,
+    "base_rate_test": 0.000532,
+    "trees_used": 85,
+    "roc_auc": 0.925,
+    "average_precision": 0.0106,
+    "ap_lift_over_base": 19.97,
+    "brier_uncalibrated": 0.000587,
+    "brier_calibrated": 0.000587,
+    "log_loss_calibrated": 0.003987,
+    "ece_uncalibrated": 0.00031,
+    "ece_calibrated": 0.00031,
+    "mean_predicted": 0.000648,
+    "calibration": {
+      "method": "identity",
+      "applied": false,
+      "n_calibration_rows": 5309,
+      "selection_slice": "early-stopping slice inside the training anchor",
+      "brier_identity_selection": 0.000927,
+      "brier_isotonic_selection": 0.000979
+    },
+    "calibration_curve": [
+      {
+        "n": 6770,
+        "predicted": 6.1e-05,
+        "observed": 0.0
+      },
+      {
+        "n": 6770,
+        "predicted": 6.8e-05,
+        "observed": 0.0
+      },
+      {
+        "n": 6770,
+        "predicted": 7.5e-05,
+        "observed": 0.0
+      },
+      {
+        "n": 6770,
+        "predicted": 8.4e-05,
+        "observed": 0.0
+      },
+      {
+        "n": 6769,
+        "predicted": 0.0001,
+        "observed": 0.0
+      },
+      {
+        "n": 6769,
+        "predicted": 0.000119,
+        "observed": 0.0
+      },
+      {
+        "n": 6769,
+        "predicted": 0.000149,
+        "observed": 0.000295
+      },
+      {
+        "n": 6769,
+        "predicted": 0.000199,
+        "observed": 0.000443
+      },
+      {
+        "n": 6769,
+        "predicted": 0.000322,
+        "observed": 0.000886
+      },
+      {
+        "n": 6769,
+        "predicted": 0.005308,
+        "observed": 0.003693
+      }
+    ],
+    "calibration_curve_uncalibrated": [
+      {
+        "n": 6770,
+        "predicted": 6.1e-05,
+        "observed": 0.0
+      },
+      {
+        "n": 6770,
+        "predicted": 6.8e-05,
+        "observed": 0.0
+      },
+      {
+        "n": 6770,
+        "predicted": 7.5e-05,
+        "observed": 0.0
+      },
+      {
+        "n": 6770,
+        "predicted": 8.4e-05,
+        "observed": 0.0
+      },
+      {
+        "n": 6769,
+        "predicted": 0.0001,
+        "observed": 0.0
+      },
+      {
+        "n": 6769,
+        "predicted": 0.000119,
+        "observed": 0.0
+      },
+      {
+        "n": 6769,
+        "predicted": 0.000149,
+        "observed": 0.000295
+      },
+      {
+        "n": 6769,
+        "predicted": 0.000199,
+        "observed": 0.000443
+      },
+      {
+        "n": 6769,
+        "predicted": 0.000322,
+        "observed": 0.000886
+      },
+      {
+        "n": 6769,
+        "predicted": 0.005308,
+        "observed": 0.003693
+      }
+    ],
+    "top_k": [
+      {
+        "k_pct": 1.0,
+        "n_reviewed": 677,
+        "captured": 10,
+        "recall": 0.2778,
+        "precision": 0.014771,
+        "lift_vs_random": 27.78
+      },
+      {
+        "k_pct": 5.0,
+        "n_reviewed": 3385,
+        "captured": 21,
+        "recall": 0.5833,
+        "precision": 0.006204,
+        "lift_vs_random": 11.67
+      },
+      {
+        "k_pct": 10.0,
+        "n_reviewed": 6769,
+        "captured": 25,
+        "recall": 0.6944,
+        "precision": 0.003693,
+        "lift_vs_random": 6.94
+      },
+      {
+        "k_pct": 20.0,
+        "n_reviewed": 13539,
+        "captured": 31,
+        "recall": 0.8611,
+        "precision": 0.00229,
+        "lift_vs_random": 4.31
+      }
+    ],
+    "evaluated_on": "forward-in-time test anchor 2025-09-04, horizon 365d",
+    "top_features": [
+      {
+        "name": "age_days_log",
+        "share": 0.1782
+      },
+      {
+        "name": "log_ref_count",
+        "share": 0.1593
+      },
+      {
+        "name": "reftag=Vendor Advisory",
+        "share": 0.1045
+      },
+      {
+        "name": "base_score",
+        "share": 0.0926
+      },
+      {
+        "name": "reftag=Release Notes",
+        "share": 0.0513
+      },
+      {
+        "name": "privilegesRequired=LOW",
+        "share": 0.0287
+      },
+      {
+        "name": "reftag=Issue Tracking",
+        "share": 0.0257
+      },
+      {
+        "name": "confidentialityImpact=NONE",
+        "share": 0.0214
+      },
+      {
+        "name": "vulnclass=authz_broken_access",
+        "share": 0.0207
+      },
+      {
+        "name": "reftag=Product",
+        "share": 0.0201
+      },
+      {
+        "name": "reftag=Mailing List",
+        "share": 0.0198
+      },
+      {
+        "name": "reftag=Third Party Advisory",
+        "share": 0.0184
+      },
+      {
+        "name": "privilegesRequired=NONE",
+        "share": 0.0177
+      },
+      {
+        "name": "exploitability_score",
+        "share": 0.0175
+      },
+      {
+        "name": "reftag=Patch",
+        "share": 0.0162
+      }
+    ]
+  },
+  "severity": {
+    "n_train": 213,
+    "n_test": 111,
+    "cut_year": 2014,
+    "target": "log10(recorded USD loss)",
+    "mae_log10": 0.9895,
+    "rmse_log10": 1.2945,
+    "mae_log10_naive_median": 1.0891,
+    "median_factor_error": 7.09,
+    "p90_factor_error": 100.77,
+    "interval_coverage_p10_p90": 0.7297,
+    "median_interval_width_factor": 551.4,
+    "interval_ordered_pct": 100.0,
+    "loss_quantiles_usd": {
+      "10": 7859.4677734375,
+      "25": 59235.5,
+      "50": 250000.09375,
+      "75": 1428734.625,
+      "90": 13884140.0,
+      "95": 70572216.0,
+      "99": 312255904.0
+    },
+    "evaluated_on": "incidents from 2014 onward; fitted only on earlier ones",
+    "top_features": [
+      {
+        "name": "log_data_total",
+        "share": 0.2448
+      },
+      {
+        "name": "employee_band_ordinal",
+        "share": 0.2199
+      },
+      {
+        "name": "incident_year",
+        "share": 0.1071
+      },
+      {
+        "name": "action=hacking",
+        "share": 0.0893
+      },
+      {
+        "name": "discovery=unknown",
+        "share": 0.0603
+      },
+      {
+        "name": "attribute=integrity",
+        "share": 0.0377
+      },
+      {
+        "name": "naics=62",
+        "share": 0.0348
+      },
+      {
+        "name": "employees=Unknown",
+        "share": 0.0332
+      },
+      {
+        "name": "asset=S",
+        "share": 0.0325
+      },
+      {
+        "name": "attribute=availability",
+        "share": 0.0324
+      },
+      {
+        "name": "discovery=external",
+        "share": 0.0301
+      },
+      {
+        "name": "n_assets",
+        "share": 0.0251
+      },
+      {
+        "name": "actor=internal",
+        "share": 0.0226
+      },
+      {
+        "name": "action=misuse",
+        "share": 0.0149
+      },
+      {
+        "name": "asset=M",
+        "share": 0.0083
+      }
+    ]
+  },
+  "parity_max_abs_delta": {
+    "exploitation": 0.0,
+    "severity_mean": 0.0,
+    "severity_p10": 0.0,
+    "severity_p90": 0.0
+  },
+  "note": "All figures are computed on the forward-in-time test split only."
+}

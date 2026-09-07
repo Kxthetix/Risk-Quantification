@@ -1,0 +1,450 @@
+{
+  "scan_metadata": {
+    "organization": "Indian Institute of Technology / Apex University",
+    "scan_date": "2026-08-28",
+    "total_assets_scanned": 18,
+    "total_findings": 18,
+    "security_budget_available_inr": 5000000
+  },
+  "assets": [
+    {
+      "asset_id": "AST-01",
+      "asset_name": "Student Information & Records DB",
+      "asset_type": "Database",
+      "business_criticality": "Critical",
+      "estimated_asset_value_inr": 125000000,
+      "data_sensitivity": "High (Aadhaar / PII)"
+    },
+    {
+      "asset_id": "AST-02",
+      "asset_name": "Central Active Directory & SSO IdP",
+      "asset_type": "Identity",
+      "business_criticality": "Critical",
+      "estimated_asset_value_inr": 95000000,
+      "data_sensitivity": "Critical (Domain Credentials)"
+    },
+    {
+      "asset_id": "AST-03",
+      "asset_name": "Online Examination & Evaluation Portal",
+      "asset_type": "Application",
+      "business_criticality": "Critical",
+      "estimated_asset_value_inr": 80000000,
+      "data_sensitivity": "High (Question Papers & Grades)"
+    },
+    {
+      "asset_id": "AST-04",
+      "asset_name": "University Payment & Fee Gateway",
+      "asset_type": "Application",
+      "business_criticality": "Critical",
+      "estimated_asset_value_inr": 70000000,
+      "data_sensitivity": "High (Banking Webhooks / UPI)"
+    },
+    {
+      "asset_id": "AST-05",
+      "asset_name": "Campus Core Gateway & Perimeter Firewall",
+      "asset_type": "Network",
+      "business_criticality": "Critical",
+      "estimated_asset_value_inr": 110000000,
+      "data_sensitivity": "Critical (Internal Packet Flow)"
+    },
+    {
+      "asset_id": "AST-06",
+      "asset_name": "Learning Management System (LMS - Moodle)",
+      "asset_type": "Application",
+      "business_criticality": "High",
+      "estimated_asset_value_inr": 45000000,
+      "data_sensitivity": "Medium (Coursework & Submissions)"
+    },
+    {
+      "asset_id": "AST-07",
+      "asset_name": "Faculty Research Supercomputing Cluster (HPC)",
+      "asset_type": "Infrastructure",
+      "business_criticality": "High",
+      "estimated_asset_value_inr": 60000000,
+      "data_sensitivity": "High (Patented Grant Datasets)"
+    },
+    {
+      "asset_id": "AST-08",
+      "asset_name": "Campus-wide Wi-Fi Controller (Aruba/Cisco)",
+      "asset_type": "Network",
+      "business_criticality": "Medium",
+      "estimated_asset_value_inr": 30000000,
+      "data_sensitivity": "Medium (802.1X Device Logs)"
+    },
+    {
+      "asset_id": "AST-09",
+      "asset_name": "Campus Hospital & Health Clinic Records",
+      "asset_type": "Database",
+      "business_criticality": "High",
+      "estimated_asset_value_inr": 35000000,
+      "data_sensitivity": "Critical (DISHA / Patient History)"
+    },
+    {
+      "asset_id": "AST-10",
+      "asset_name": "Enterprise ERP & Faculty Payroll System",
+      "asset_type": "Application",
+      "business_criticality": "High",
+      "estimated_asset_value_inr": 50000000,
+      "data_sensitivity": "High (Salary Slips & Bank Accounts)"
+    },
+    {
+      "asset_id": "AST-11",
+      "asset_name": "University Public Web Portal & CMS",
+      "asset_type": "Application",
+      "business_criticality": "Medium",
+      "estimated_asset_value_inr": 20000000,
+      "data_sensitivity": "Low (Public Content)"
+    },
+    {
+      "asset_id": "AST-12",
+      "asset_name": "Registrar & Degree Verification Archive",
+      "asset_type": "Database",
+      "business_criticality": "High",
+      "estimated_asset_value_inr": 40000000,
+      "data_sensitivity": "High (Graduation Diplomas)"
+    },
+    {
+      "asset_id": "AST-13",
+      "asset_name": "Campus CCTV & Physical Access Controller",
+      "asset_type": "Infrastructure",
+      "business_criticality": "Medium",
+      "estimated_asset_value_inr": 25000000,
+      "data_sensitivity": "Medium (Surveillance Feeds)"
+    },
+    {
+      "asset_id": "AST-14",
+      "asset_name": "Internal Code Repository (GitLab CE)",
+      "asset_type": "Infrastructure",
+      "business_criticality": "High",
+      "estimated_asset_value_inr": 38000000,
+      "data_sensitivity": "High (Source Code & API Keys)"
+    },
+    {
+      "asset_id": "AST-15",
+      "asset_name": "Virtual Desktop Infrastructure (VDI Farm)",
+      "asset_type": "Infrastructure",
+      "business_criticality": "High",
+      "estimated_asset_value_inr": 42000000,
+      "data_sensitivity": "Medium (Engineering Lab VMs)"
+    },
+    {
+      "asset_id": "AST-16",
+      "asset_name": "Smart Library Resource & RFID Server",
+      "asset_type": "Application",
+      "business_criticality": "Low",
+      "estimated_asset_value_inr": 12000000,
+      "data_sensitivity": "Low (Book Lending History)"
+    },
+    {
+      "asset_id": "AST-17",
+      "asset_name": "Hostel SCADA Smart Water & Power Gateway",
+      "asset_type": "Infrastructure",
+      "business_criticality": "Low",
+      "estimated_asset_value_inr": 8000000,
+      "data_sensitivity": "Low (Modbus Power Readings)"
+    },
+    {
+      "asset_id": "AST-18",
+      "asset_name": "Alumni Network & Endowment Portal",
+      "asset_type": "Application",
+      "business_criticality": "Medium",
+      "estimated_asset_value_inr": 18000000,
+      "data_sensitivity": "Medium (Donor Contacts & Gifts)"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "FND-01",
+      "asset_id": "AST-01",
+      "cve_id": "CVE-2023-38606",
+      "vulnerability_name": "Remote Code Execution in Database Engine",
+      "cvss_score": 9.8,
+      "epss_score": 0.89,
+      "actively_exploited": true,
+      "description": "Active in-the-wild exploitation detected. Unauthenticated remote attacker can execute arbitrary code on the student records database."
+    },
+    {
+      "finding_id": "FND-02",
+      "asset_id": "AST-02",
+      "cve_id": "CVE-2024-21413",
+      "vulnerability_name": "NTLM Relay Privilege Escalation (MonikerLink)",
+      "cvss_score": 9.8,
+      "epss_score": 0.84,
+      "actively_exploited": true,
+      "description": "Exploit kit allows attackers to relay NetNTLM hashes to Active Directory domain controllers, escalating to Domain Admin in one hop."
+    },
+    {
+      "finding_id": "FND-03",
+      "asset_id": "AST-03",
+      "cve_id": "CVE-2023-46604",
+      "vulnerability_name": "Apache ActiveMQ Deserialization RCE",
+      "cvss_score": 9.8,
+      "epss_score": 0.91,
+      "actively_exploited": true,
+      "description": "Weaponized botnets targeting online examination submission queue. Untrusted OpenWire marshalling triggers arbitrary process execution."
+    },
+    {
+      "finding_id": "FND-04",
+      "asset_id": "AST-04",
+      "cve_id": "CVE-2023-34362",
+      "vulnerability_name": "MOVEit SQL Injection to Remote Code Execution",
+      "cvss_score": 9.8,
+      "epss_score": 0.76,
+      "actively_exploited": true,
+      "description": "Direct SQL injection path bypassing web input sanitization on fee receipt gateway, potentially altering fee reconciliation logs."
+    },
+    {
+      "finding_id": "FND-05",
+      "asset_id": "AST-05",
+      "cve_id": "CVE-2024-3400",
+      "vulnerability_name": "PAN-OS Command Injection Vulnerability",
+      "cvss_score": 10.0,
+      "epss_score": 0.94,
+      "actively_exploited": true,
+      "description": "State-sponsored threat actors actively exploiting perimeter firewall telemetry daemon to deploy persistent root web shells."
+    },
+    {
+      "finding_id": "FND-06",
+      "asset_id": "AST-06",
+      "cve_id": "CVE-2023-50164",
+      "vulnerability_name": "Apache Struts File Upload Path Traversal RCE",
+      "cvss_score": 9.8,
+      "epss_score": 0.65,
+      "actively_exploited": false,
+      "description": "Homework assignment upload allows directory traversal and server-side JSP shell placement on academic LMS server."
+    },
+    {
+      "finding_id": "FND-07",
+      "asset_id": "AST-07",
+      "cve_id": "CVE-2024-1086",
+      "vulnerability_name": "Linux Kernel Netfilter Use-After-Free Privilege Escalation",
+      "cvss_score": 7.8,
+      "epss_score": 0.58,
+      "actively_exploited": true,
+      "description": "Unprivileged compute node users can elevate to root privileges, risking IP theft on funded research models."
+    },
+    {
+      "finding_id": "FND-08",
+      "asset_id": "AST-08",
+      "cve_id": "CVE-2023-38035",
+      "vulnerability_name": "Sentry Header Authentication Bypass",
+      "cvss_score": 8.8,
+      "epss_score": 0.42,
+      "actively_exploited": false,
+      "description": "Management portal allows unauthenticated attackers to bypass administrative ACLs via crafted HTTP header parameters."
+    },
+    {
+      "finding_id": "FND-09",
+      "asset_id": "AST-09",
+      "cve_id": "CVE-2023-22515",
+      "vulnerability_name": "Broken Access Control / Admin Account Creation",
+      "cvss_score": 9.8,
+      "epss_score": 0.72,
+      "actively_exploited": true,
+      "description": "Ransomware groups actively creating unauthorized admin accounts without credentials on clinic records collaboration system."
+    },
+    {
+      "finding_id": "FND-10",
+      "asset_id": "AST-10",
+      "cve_id": "CVE-2022-39952",
+      "vulnerability_name": "Unauthenticated Remote Code Execution",
+      "cvss_score": 9.8,
+      "epss_score": 0.68,
+      "actively_exploited": true,
+      "description": "Memory manipulation flaw allows arbitrary system commands on ERP payroll staging server without credentials."
+    },
+    {
+      "finding_id": "FND-11",
+      "asset_id": "AST-11",
+      "cve_id": "CVE-2023-3824",
+      "vulnerability_name": "PHP Buffer Overflow in Phar Deserialization",
+      "cvss_score": 7.5,
+      "epss_score": 0.35,
+      "actively_exploited": false,
+      "description": "Buffer overflow in web portal CMS engine enables denial of service or defacement during student admission cycles."
+    },
+    {
+      "finding_id": "FND-12",
+      "asset_id": "AST-12",
+      "cve_id": "CVE-2023-29357",
+      "vulnerability_name": "SharePoint Privilege Escalation via JWT Spoofing",
+      "cvss_score": 8.8,
+      "epss_score": 0.54,
+      "actively_exploited": false,
+      "description": "Allows spoofed JWT token authentication leading to full administrator rights over university degree archive documents."
+    },
+    {
+      "finding_id": "FND-13",
+      "asset_id": "AST-13",
+      "cve_id": "CVE-2023-28771",
+      "vulnerability_name": "Zyxel IKE UDP Packet Remote Code Execution",
+      "cvss_score": 9.8,
+      "epss_score": 0.61,
+      "actively_exploited": true,
+      "description": "Malformed UDP packets trigger root shell execution on CCTV stream concentrators and hostel gate controllers."
+    },
+    {
+      "finding_id": "FND-14",
+      "asset_id": "AST-14",
+      "cve_id": "CVE-2023-7028",
+      "vulnerability_name": "Account Takeover via Password Reset Flaw",
+      "cvss_score": 10.0,
+      "epss_score": 0.79,
+      "actively_exploited": true,
+      "description": "Password reset token sent to arbitrary unverified email addresses, exposing internal institutional git repositories."
+    },
+    {
+      "finding_id": "FND-15",
+      "asset_id": "AST-15",
+      "cve_id": "CVE-2023-3519",
+      "vulnerability_name": "NetScaler Unauthenticated Remote Code Execution",
+      "cvss_score": 9.8,
+      "epss_score": 0.86,
+      "actively_exploited": true,
+      "description": "Unauthenticated buffer overflow vulnerability on student lab remote desktop gateway gateway used for ransomware entry."
+    },
+    {
+      "finding_id": "FND-16",
+      "asset_id": "AST-16",
+      "cve_id": "CVE-2023-27350",
+      "vulnerability_name": "PaperCut Authentication Bypass to System RCE",
+      "cvss_score": 9.8,
+      "epss_score": 0.74,
+      "actively_exploited": true,
+      "description": "Setup page access flaw enables remote command execution as NT AUTHORITY\\SYSTEM on library printing server."
+    },
+    {
+      "finding_id": "FND-17",
+      "asset_id": "AST-17",
+      "cve_id": "CVE-2022-40982",
+      "vulnerability_name": "Downfall Speculative Execution Information Disclosure",
+      "cvss_score": 6.5,
+      "epss_score": 0.15,
+      "actively_exploited": false,
+      "description": "Gather data sampling instruction leak on hostel SCADA sensor collector node, requiring physical/co-located presence."
+    },
+    {
+      "finding_id": "FND-18",
+      "asset_id": "AST-18",
+      "cve_id": "CVE-2023-32315",
+      "vulnerability_name": "Openfire Admin Console Path Traversal Bypass",
+      "cvss_score": 9.8,
+      "epss_score": 0.52,
+      "actively_exploited": false,
+      "description": "Path traversal flaw enables malicious admin plugin upload on alumni communication portal, compromising donor lists."
+    }
+  ],
+  "candidate_investments": [
+    {
+      "control_id": "CTRL-01",
+      "control_name": "Deploy Zero-Trust Microsegmentation",
+      "cost_inr": 1800000,
+      "estimated_risk_reduction_pct": 32,
+      "addresses_findings": [
+        "FND-01",
+        "FND-03",
+        "FND-05"
+      ]
+    },
+    {
+      "control_id": "CTRL-02",
+      "control_name": "Phishing-Resistant FIDO2/Hardware MFA",
+      "cost_inr": 1200000,
+      "estimated_risk_reduction_pct": 28,
+      "addresses_findings": [
+        "FND-02",
+        "FND-10",
+        "FND-14"
+      ]
+    },
+    {
+      "control_id": "CTRL-03",
+      "control_name": "Database Activity Monitoring (DAM) & Encryption",
+      "cost_inr": 1500000,
+      "estimated_risk_reduction_pct": 25,
+      "addresses_findings": [
+        "FND-01",
+        "FND-09",
+        "FND-12"
+      ]
+    },
+    {
+      "control_id": "CTRL-04",
+      "control_name": "AI-Driven Managed XDR Endpoint Detection",
+      "cost_inr": 1000000,
+      "estimated_risk_reduction_pct": 22,
+      "addresses_findings": [
+        "FND-07",
+        "FND-15",
+        "FND-16"
+      ]
+    },
+    {
+      "control_id": "CTRL-05",
+      "control_name": "Next-Gen Cloud WAF with Virtual Patching",
+      "cost_inr": 800000,
+      "estimated_risk_reduction_pct": 19,
+      "addresses_findings": [
+        "FND-04",
+        "FND-06",
+        "FND-11",
+        "FND-18"
+      ]
+    },
+    {
+      "control_id": "CTRL-06",
+      "control_name": "Privileged Access Management (PAM) Vault",
+      "cost_inr": 950000,
+      "estimated_risk_reduction_pct": 20,
+      "addresses_findings": [
+        "FND-02",
+        "FND-05",
+        "FND-10"
+      ]
+    },
+    {
+      "control_id": "CTRL-07",
+      "control_name": "Immutable Air-Gapped Ransomware Backups",
+      "cost_inr": 1400000,
+      "estimated_risk_reduction_pct": 24,
+      "addresses_findings": [
+        "FND-01",
+        "FND-09",
+        "FND-10",
+        "FND-12"
+      ]
+    },
+    {
+      "control_id": "CTRL-08",
+      "control_name": "Automated Patch & Vulnerability Orchestration (VPO)",
+      "cost_inr": 650000,
+      "estimated_risk_reduction_pct": 16,
+      "addresses_findings": [
+        "FND-06",
+        "FND-07",
+        "FND-11",
+        "FND-17"
+      ]
+    },
+    {
+      "control_id": "CTRL-09",
+      "control_name": "802.1X Network Access Control (NAC)",
+      "cost_inr": 700000,
+      "estimated_risk_reduction_pct": 14,
+      "addresses_findings": [
+        "FND-08",
+        "FND-13"
+      ]
+    },
+    {
+      "control_id": "CTRL-10",
+      "control_name": "Continuous Human Phishing Simulation & Training",
+      "cost_inr": 400000,
+      "estimated_risk_reduction_pct": 10,
+      "addresses_findings": [
+        "FND-02",
+        "FND-04"
+      ]
+    }
+  ]
+}
