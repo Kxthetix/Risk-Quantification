@@ -1,1 +1,0 @@
-export { RiskBadge } from "./badge";
